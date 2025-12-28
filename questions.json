@@ -84,14 +84,14 @@
       "correctAnswer": [
         "D"
       ],
-      "explanation": "选项D正确。人类社会数据产生方式经历了三个阶段：第一阶段是运营式系统阶段（选项B），数据主要由数据库和信息系统产生；第二阶段是用户原创内容阶段（选项C），Web",
+      "explanation": "选项D正确。人类社会数据产生方式经历了三个阶段：第一阶段是运营式系统阶段（选项B），数据主要由数据库和信息系统产生；第二阶段是用户原创内容阶段（选项C），Web 2.0时代用户主动创造大量数据；第三阶段是感知式系统阶段（选项D），物联网通过传感器自动、实时地产生海量数据。选项A手工创建阶段不属于这三个阶段。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_2_single",
+      "id": "q_0_4_single",
       "unit": "第1章_大数据概述",
       "type": "single",
-      "question": "0时代用户主动创造大量数据；第三阶段是感知式系统阶段（选项D），物联网通过传感器自动、实时地产生海量数据。选项A手工创建阶段不属于这三个阶段。\n\n \n\n4、 英国的大数据发展战略是",
+      "question": "英国的大数据发展战略是",
       "options": [
         {
           "key": "A",
@@ -297,14 +297,14 @@
         "C",
         "D"
       ],
-      "explanation": "选项BCD正确。人类社会数据产生方式经历了三个阶段：运营式系统阶段（数据库和信息系统产生数据）、用户原创内容阶段（Web",
+      "explanation": "选项BCD正确。人类社会数据产生方式经历了三个阶段：运营式系统阶段（数据库和信息系统产生数据）、用户原创内容阶段（Web 2.0时代用户主动创造数据）、感知式系统阶段（物联网传感器自动产生数据）。选项A手工生产阶段不属于这三个阶段。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_2_multiple",
+      "id": "q_0_6_multiple",
       "unit": "第1章_大数据概述",
       "type": "multiple",
-      "question": "0时代用户主动创造数据）、感知式系统阶段（物联网传感器自动产生数据）。选项A手工生产阶段不属于这三个阶段。\n\n \n\n \n\n6、关于\"大数据摩尔定律\"，以下说法正确的是",
+      "question": "关于\"大数据摩尔定律\"，以下说法正确的是",
       "options": [
         {
           "key": "A",
@@ -2768,14 +2768,14 @@
       "correctAnswer": [
         "A"
       ],
-      "explanation": "选项A正确。Min-Max规范化公式：v'=(v-min)/(max-min)。v=72400, min=11000, max=87000。v'=(72400-11000)/(87000-11000)=61400/76000=",
+      "explanation": "选项A正确。Min-Max规范化公式：v'=(v-min)/(max-min)。v=72400, min=11000, max=87000。v'=(72400-11000)/(87000-11000)=61400/76000=0.808。所以72400元映射到0.808。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_0_single",
+      "id": "q_0_12_single",
       "unit": "第5章_数据采集与预处理",
       "type": "single",
-      "question": "808。所以72400元映射到0.808。\n\n \n\n12、假设A班级的平均分是80，标准差是10，A考了90分；B班的平均分是400，标准差是100，B考了600分。采用Z-Score规范化以后，二者谁的成绩更加优秀",
+      "question": "假设A班级的平均分是80，标准差是10，A考了90分；B班的平均分是400，标准差是100，B考了600分。采用Z-Score规范化以后，二者谁的成绩更加优秀",
       "options": [
         {
           "key": "A",
@@ -2797,14 +2797,14 @@
       "correctAnswer": [
         "B"
       ],
-      "explanation": "选项B正确。Z-Score公式：z=(x-μ)/σ。A的z值=(90-80)/10=",
+      "explanation": "选项B正确。Z-Score公式：z=(x-μ)/σ。A的z值=(90-80)/10=1.0；B的z值=(600-400)/100=2.0。B的z值更大，说明B的成绩在其班级中更优秀（超出平均值2个标准差，而A只超出1个标准差）。Z-Score消除了不同量纲的影响，可以比较不同班级的成绩。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_1_single",
+      "id": "q_0_13_single",
       "unit": "第5章_数据采集与预处理",
       "type": "single",
-      "question": "0；B的z值=(600-400)/100=2.0。B的z值更大，说明B的成绩在其班级中更优秀（超出平均值2个标准差，而A只超出1个标准差）。Z-Score消除了不同量纲的影响，可以比较不同班级的成绩。\n\n \n\n13、假设属性的取值范围是-957~924，当属性的值为426时，采用小数定标规范化方法对应的转换结果是",
+      "question": "假设属性的取值范围是-957~924，当属性的值为426时，采用小数定标规范化方法对应的转换结果是",
       "options": [
         {
           "key": "A",
@@ -2826,14 +2826,14 @@
       "correctAnswer": [
         "C"
       ],
-      "explanation": "选项C正确。小数定标规范化：v'=v/10^j，其中j是使max(|v'|)<1的最小整数。最大绝对值为957，需要除以1000使结果小于1。v'=426/1000=",
+      "explanation": "选项C正确。小数定标规范化：v'=v/10^j，其中j是使max(|v'|)<1的最小整数。最大绝对值为957，需要除以1000使结果小于1。v'=426/1000=0.426。小数定标规范化通过移动小数点位置实现规范化。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_0_multiple",
+      "id": "q_0_1_multiple",
       "unit": "第5章_数据采集与预处理",
       "type": "multiple",
-      "question": "426。小数定标规范化通过移动小数点位置实现规范化。\n\n \n\n \n\n \n\n二、多选题\n\n1、数据采集的三大要点是",
+      "question": "数据采集的三大要点是",
       "options": [
         {
           "key": "A",
@@ -3230,14 +3230,14 @@
       "correctAnswer": [
         "D"
       ],
-      "explanation": "选项D错误。在Web",
+      "explanation": "选项D错误。在Web 2.0和大数据时代，事务机制和复杂查询不再是核心特性，反而可能成为负担。Web 2.0和大数据更强调高并发、高可扩展性，而不是强一致性事务。选项A、B、C都正确描述了关系数据库的局限性和面临的挑战。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_2_single",
+      "id": "q_0_4_single",
       "unit": "第6章_数据存储与管理",
       "type": "single",
-      "question": "0和大数据时代，事务机制和复杂查询不再是核心特性，反而可能成为负担。Web 2.0和大数据更强调高并发、高可扩展性，而不是强一致性事务。选项A、B、C都正确描述了关系数据库的局限性和面临的挑战。\n\n \n\n4、以下关于NoSQL数据库描述错误的是",
+      "question": "以下关于NoSQL数据库描述错误的是",
       "options": [
         {
           "key": "A",
@@ -3462,14 +3462,14 @@
       "correctAnswer": [
         "A"
       ],
-      "explanation": "选项A正确。YARN（Yet Another Resource Negotiator）是Hadoop",
+      "explanation": "选项A正确。YARN（Yet Another Resource Negotiator）是Hadoop 2.0引入的资源管理器，负责集群资源的调度和管理。选项B Flume是日志采集工具；选项C Zookeeper是分布式协调服务；选项D Kafka是消息队列系统。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_2_single",
+      "id": "q_0_12_single",
       "unit": "第6章_数据存储与管理",
       "type": "single",
-      "question": "0引入的资源管理器，负责集群资源的调度和管理。选项B Flume是日志采集工具；选项C Zookeeper是分布式协调服务；选项D Kafka是消息队列系统。\n\n \n\n12、下面组件哪个是数据挖掘库",
+      "question": "下面组件哪个是数据挖掘库",
       "options": [
         {
           "key": "A",
@@ -3666,6 +3666,122 @@
         "A"
       ],
       "explanation": "选项A错误。文档数据库的数据是不规则的，每个文档可以有不同结构，这是文档数据库的灵活性所在。选项B、C、D都正确描述了文档数据库的特点：高并发性能好、缺乏统一查询语法、复杂性低。文档数据库的代表是MongoDB、CouchDB等。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_19_single",
+      "unit": "第6章_数据存储与管理",
+      "type": "single",
+      "question": "下列关于云数据库的描述，哪个是错误的",
+      "options": [
+        {
+          "key": "A",
+          "text": "云数据库是部署和虚拟化在云计算环境中的数据库"
+        },
+        {
+          "key": "B",
+          "text": "云数据库是在云计算的大背景下发展起来的一种新兴的共享基础架构的方法"
+        },
+        {
+          "key": "C",
+          "text": "云数据库价格不菲，维护费用极其昂贵"
+        },
+        {
+          "key": "D",
+          "text": "云数据库具有高可扩展性、高可用性、采用多租形式和支持资源有效分发等特点"
+        }
+      ],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "选项C错误。云数据库的优势之一就是成本低，按需付费，维护费用低（由云服务商维护），而不是价格昂贵。选项A、B、D都正确描述了云数据库的特征：部署在云环境、共享基础架构、高可扩展性和高可用性。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_20_single",
+      "unit": "第6章_数据存储与管理",
+      "type": "single",
+      "question": "下列哪一个不属于云数据库产品",
+      "options": [
+        {
+          "key": "A",
+          "text": "本地安装MySQL"
+        },
+        {
+          "key": "B",
+          "text": "阿里云RDS"
+        },
+        {
+          "key": "C",
+          "text": "Oracle Cloud"
+        },
+        {
+          "key": "D",
+          "text": "百度云数据库"
+        }
+      ],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "选项A正确。本地安装MySQL不是云数据库产品，它是本地部署的数据库。选项B阿里云RDS、选项C Oracle Cloud、选项D百度云数据库都是云数据库产品，部署在云端，提供数据库服务。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_21_single",
+      "unit": "第6章_数据存储与管理",
+      "type": "single",
+      "question": "下面哪一项不是云数据库的特性",
+      "options": [
+        {
+          "key": "A",
+          "text": "动态可扩展"
+        },
+        {
+          "key": "B",
+          "text": "高成本"
+        },
+        {
+          "key": "C",
+          "text": "易用性"
+        },
+        {
+          "key": "D",
+          "text": "大规模并行处理"
+        }
+      ],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "选项B正确。高成本不是云数据库的特性，相反，云数据库具有低成本的优势（按需付费、无需自建基础设施）。选项A、C、D都是云数据库的特性：动态可扩展、易用性、大规模并行处理。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_22_single",
+      "unit": "第6章_数据存储与管理",
+      "type": "single",
+      "question": "下列关于BigTable的描述，哪个是错误的",
+      "options": [
+        {
+          "key": "A",
+          "text": "爬虫持续不断地抓取新页面，这些页面每隔一段时间地存储到BigTable里"
+        },
+        {
+          "key": "B",
+          "text": "BigTable是一个分布式存储系统"
+        },
+        {
+          "key": "C",
+          "text": "BigTable起初用于解决典型的互联网搜索问题"
+        },
+        {
+          "key": "D",
+          "text": "网络搜索应用查询建立好的索引，从BigTable得到网页"
+        }
+      ],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "选项A错误。爬虫抓取的页面是持续不断地存储到BigTable里，而不是\"每隔一段时间\"。BigTable支持实时写入。选项B、C、D都正确描述了BigTable：分布式存储系统、用于互联网搜索、存储网页数据供查询。BigTable是Google开发的分布式数据库。",
       "difficulty": "medium"
     },
     {
@@ -3916,6 +4032,100 @@
         "C"
       ],
       "explanation": "选项ABC正确。HDFS采用主从结构：NameNode（名称节点）管理元数据，DataNode（数据节点）存储数据。选项D错误，是数据节点向名称节点发送心跳，而不是名称节点向数据节点发送心跳。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_9_multiple",
+      "unit": "第6章_数据存储与管理",
+      "type": "multiple",
+      "question": "下列关于文档数据库的描述，哪些是正确的",
+      "options": [
+        {
+          "key": "A",
+          "text": "性能好（高并发），灵活性高"
+        },
+        {
+          "key": "B",
+          "text": "具备统一的查询语法"
+        },
+        {
+          "key": "C",
+          "text": "文档数据库支持文档间的事务"
+        },
+        {
+          "key": "D",
+          "text": "复杂性低，数据结构灵活"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "选项AD正确。文档数据库的特点：高并发性能好、灵活性高、数据结构灵活、复杂性低。选项B错误，文档数据库缺乏统一的查询语法；选项C错误，文档数据库通常不支持跨文档事务。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_10_multiple",
+      "unit": "第6章_数据存储与管理",
+      "type": "multiple",
+      "question": "下列关于图数据库的描述，哪些是正确的",
+      "options": [
+        {
+          "key": "A",
+          "text": "专门用于处理具有高度相互关联关系的数据"
+        },
+        {
+          "key": "B",
+          "text": "比较适合于社交网络、模式识别、依赖分析、推荐系统以及路径寻找等问题"
+        },
+        {
+          "key": "C",
+          "text": "灵活性高，支持复杂的图算法"
+        },
+        {
+          "key": "D",
+          "text": "复杂性高，只能支持一定的数据规模"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "选项ABCD都正确。图数据库的特点：专门处理关联关系数据、适合社交网络等应用、支持复杂图算法、但复杂性高且数据规模有限。图数据库的代表是Neo4j等，适合处理复杂的关系网络。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_11_multiple",
+      "unit": "第6章_数据存储与管理",
+      "type": "multiple",
+      "question": "下列关于数据模型的描述，哪些是正确的",
+      "options": [
+        {
+          "key": "A",
+          "text": "HBase采用表来组织数据，表由行和列组成，列划分为若干个列族"
+        },
+        {
+          "key": "B",
+          "text": "每个HBase表都由若干行组成，每个行由行键（row key）来标识"
+        },
+        {
+          "key": "C",
+          "text": "列族里的数据通过列限定符（或列）来定位"
+        },
+        {
+          "key": "D",
+          "text": "每个单元格都保存着同一份数据的多个版本，这些版本采用时间戳进行索引"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "选项ABCD都正确。HBase的数据模型：表结构（行、列、列族）、行键标识行、列限定符定位数据、时间戳索引多版本。HBase是列族数据库，支持多版本数据存储，适合大数据场景。",
       "difficulty": "medium"
     },
     {
@@ -4269,14 +4479,14 @@
       "correctAnswer": [
         "C"
       ],
-      "explanation": "选项C正确。S4是流计算技术，用于实时数据处理。选项A Spark MLLib是机器学习库；选项B GraphX是图计算技术；选项D Hive是查询分析技术。流计算技术用于处理实时数据流，如Storm、S",
+      "explanation": "选项C正确。S4是流计算技术，用于实时数据处理。选项A Spark MLLib是机器学习库；选项B GraphX是图计算技术；选项D Hive是查询分析技术。流计算技术用于处理实时数据流，如Storm、S4、Flink等。",
       "difficulty": "medium"
     },
     {
-      "id": "q_0_4_single",
+      "id": "q_0_11_single",
       "unit": "第7章_数据处理与分析",
       "type": "single",
-      "question": "Flink等。\n\n \n\n11、下面属于图计算技术的是",
+      "question": "下面属于图计算技术的是",
       "options": [
         {
           "key": "A",
@@ -4331,6 +4541,64 @@
       "difficulty": "medium"
     },
     {
+      "id": "q_0_13_single",
+      "unit": "第7章_数据处理与分析",
+      "type": "single",
+      "question": "下列关于流计算的说法，哪项是错误的",
+      "options": [
+        {
+          "key": "A",
+          "text": "实时获取来自不同数据源的海量数据，经过实时分析处理，获得有价值的信息"
+        },
+        {
+          "key": "B",
+          "text": "流计算秉承一个基本理念，即 数据的价值随着时间的流逝而降低"
+        },
+        {
+          "key": "C",
+          "text": "对于一个流计算系统来说，它应该支持TB级甚至是PB级的数据规模"
+        },
+        {
+          "key": "D",
+          "text": "流计算只需要保证较低的延迟时间，即只达到秒级别即可处理一切问题"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D错误。流计算需要保证低延迟，但不同应用对延迟要求不同，有些需要毫秒级，秒级别可能不够。选项A、B、C都正确描述了流计算：实时处理、数据价值随时间降低、支持大规模数据。流计算强调实时性和低延迟。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_14_single",
+      "unit": "第7章_数据处理与分析",
+      "type": "single",
+      "question": "下列关于数据处理流程，说法有误的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "在传统的数据处理流程中，存储的数据是旧的"
+        },
+        {
+          "key": "B",
+          "text": "在传统的数据处理流程中，需要用户主动发出查询来获取结果"
+        },
+        {
+          "key": "C",
+          "text": "传统的数据处理流程，需要先采集数据并存储在关系数据库等数据管理系统中"
+        },
+        {
+          "key": "D",
+          "text": "流计算的处理流程一般包含三个阶段：数据实时采集、数据批量计算、实时查询服务"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D错误。流计算的处理流程是：数据实时采集、数据实时计算、实时查询服务，而不是批量计算。流计算强调实时性，使用流式计算而非批量计算。选项A、B、C都正确描述了传统数据处理流程的特点。",
+      "difficulty": "medium"
+    },
+    {
       "id": "q_0_15_single",
       "unit": "第7章_数据处理与分析",
       "type": "single",
@@ -4357,6 +4625,35 @@
         "A"
       ],
       "explanation": "选项A正确。Neo4j是图数据库，专门用于存储和处理图结构数据。选项B MySQL是关系数据库；选项C HBase是列族数据库；选项D Oracle是关系数据库。图数据库适合处理复杂的关系网络数据。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_16_single",
+      "unit": "第7章_数据处理与分析",
+      "type": "single",
+      "question": "下列关于MapReduce模型的描述，错误的是哪一项",
+      "options": [
+        {
+          "key": "A",
+          "text": "MapReduce采用\" 分而治之\"策略"
+        },
+        {
+          "key": "B",
+          "text": "MapReduce设计的一个理念就是\" 计算向数据靠拢\""
+        },
+        {
+          "key": "C",
+          "text": "MapReduce框架采用了Master/Slave架构"
+        },
+        {
+          "key": "D",
+          "text": "MapReduce应用程序只能用Java来写"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D错误。MapReduce不仅支持Java，还支持其他语言如Python、C++等，可以通过Hadoop Streaming等方式使用其他语言。选项A、B、C都正确描述了MapReduce：分而治之策略、计算向数据靠拢、主从架构。",
       "difficulty": "medium"
     },
     {
@@ -5609,6 +5906,278 @@
         "D"
       ],
       "explanation": "选项BD正确。Dremel的特点：嵌套数据模型、结合Web搜索和并行DBMS技术。选项A错误，Dremel面向大规模数据；选项C错误，Dremel使用列式存储，不是行式存储。Dremel是Google开发的交互式查询系统，支持嵌套数据的快速查询。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_1_single",
+      "unit": "第8章_数据可视化",
+      "type": "single",
+      "question": "下列关于数据可视化的描述，哪个是错误的",
+      "options": [
+        {
+          "key": "A",
+          "text": "数据可视化是指将大型数据集中的数据以图形图像形式表示"
+        },
+        {
+          "key": "B",
+          "text": "利用数据分析和开发工具发现其中未知信息的处理过程"
+        },
+        {
+          "key": "C",
+          "text": "数据可视化技术的基本思想是将数据库中每一个数据项作为单个图元素表示"
+        },
+        {
+          "key": "D",
+          "text": "将数据的各个属性值以一维数据的形式表示"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D错误。数据可视化是将数据的各个属性值以多维数据的形式表示（如二维图表、三维图形等），而不是一维。选项A、B、C都正确描述了数据可视化：图形图像表示、发现未知信息、数据项作为图元素。数据可视化帮助人们理解数据。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_2_single",
+      "unit": "第8章_数据可视化",
+      "type": "single",
+      "question": "下列哪个不属于可视化工具",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google Chart API"
+        },
+        {
+          "key": "B",
+          "text": "D3"
+        },
+        {
+          "key": "C",
+          "text": "Visual.ly"
+        },
+        {
+          "key": "D",
+          "text": "Spark"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D正确。Spark是数据处理框架，不是可视化工具。选项A Google Chart API、选项B D3、选项C Visual.ly都是数据可视化工具。可视化工具用于创建图表和图形，而Spark用于数据处理和分析。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_3_single",
+      "unit": "第8章_数据可视化",
+      "type": "single",
+      "question": "下列说法错误的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "大数据魔镜是一款优秀的国产数据分析软件，可以让用户真正理解探索分析数据"
+        },
+        {
+          "key": "B",
+          "text": "Tableau是桌面系统中最简单的商业智能工具软件，是一个用于网页作图、生成互动图形的JavaScript函数库"
+        },
+        {
+          "key": "C",
+          "text": "Google Fusion Tables让一般使用者也可以轻松制作出专业的统计地图"
+        },
+        {
+          "key": "D",
+          "text": "Modest Maps是一个小型、可扩展、交互式的免费库，提供了一套查看卫星地图的API"
+        }
+      ],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "选项B错误。Tableau是商业智能工具软件，但描述\"用于网页作图、生成互动图形的JavaScript函数库\"是错误的，这个描述的是D3.js。Tableau是桌面BI工具，不是JavaScript库。选项A、C、D都正确描述了相应的工具。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_4_single",
+      "unit": "第8章_数据可视化",
+      "type": "single",
+      "question": "下面关于Timetoast的描述，哪个是错误的",
+      "options": [
+        {
+          "key": "A",
+          "text": "Timetoast是在线创作基于时间轴事件记载服务的网站"
+        },
+        {
+          "key": "B",
+          "text": "提供个性化的时间线服务"
+        },
+        {
+          "key": "C",
+          "text": "Timetoast基于 flash 平台，可以在类似flash时间轴上任意加入事件"
+        },
+        {
+          "key": "D",
+          "text": "Timetoast是一个提供复杂统计图表的工具"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "选项D错误。Timetoast是时间轴可视化工具，用于创建时间线，不是提供复杂统计图表的工具。选项A、B、C都正确描述了Timetoast：时间轴事件记载、个性化时间线、基于Flash平台。Timetoast用于展示时间序列事件。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_5_single",
+      "unit": "第8章_数据可视化",
+      "type": "single",
+      "question": "下列关于可视化工具中高级分析工具的说法，错误的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "R是属于GNU系统的一个自由、免费、源代码开放的软件"
+        },
+        {
+          "key": "B",
+          "text": "Weka主要用于社交图谱数据可视化分析，可以生成非常酷炫的可视化图形"
+        },
+        {
+          "key": "C",
+          "text": "Gephi主要用于社交图谱数据可视化分析，可以生成非常酷炫的可视化图形"
+        },
+        {
+          "key": "D",
+          "text": "R通常用于大数据集的统计与分析"
+        }
+      ],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "选项B错误。Weka是机器学习工具，主要用于数据挖掘和机器学习，不是用于社交图谱数据可视化。选项C Gephi才是用于社交图谱数据可视化的工具。选项A、D都正确描述了R语言：GNU系统、用于统计分析。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_1_multiple",
+      "unit": "第8章_数据可视化",
+      "type": "multiple",
+      "question": "在大数据时代，可视化技术可以支持实现哪些目标",
+      "options": [
+        {
+          "key": "A",
+          "text": "观测、跟踪数据"
+        },
+        {
+          "key": "B",
+          "text": "分析数据"
+        },
+        {
+          "key": "C",
+          "text": "辅助理解数据"
+        },
+        {
+          "key": "D",
+          "text": "增强数据吸引力"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "选项ABCD都正确。数据可视化的目标包括：观测跟踪数据（实时监控）、分析数据（发现规律）、辅助理解数据（直观展示）、增强数据吸引力（美观呈现）。可视化技术帮助人们更好地理解和利用大数据。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_2_multiple",
+      "unit": "第8章_数据可视化",
+      "type": "multiple",
+      "question": "信息图表是信息、数据、知识等的视觉化表达，下列哪个说法正确",
+      "options": [
+        {
+          "key": "A",
+          "text": "谷歌公司的制图服务接口Google Chart API，可以用来为统计数据并自动生成图片"
+        },
+        {
+          "key": "B",
+          "text": "D3是最流行的可视化库之一，是一个用于网页作图、生成互动图形的JavaScript函数库"
+        },
+        {
+          "key": "C",
+          "text": "ECharts是由百度公司前端数据可视化团队研发的图表库，可以流畅地运行在PC和移动设备上"
+        },
+        {
+          "key": "D",
+          "text": "大数据魔镜是一款优秀的国产数据分析软件，它丰富的数据公式和算法可以让用户真正理解探索分析数据"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "选项ABCD都正确。这些工具都是信息图表和可视化的重要工具：Google Chart API（制图服务）、D3（JavaScript可视化库）、ECharts（百度图表库）、大数据魔镜（国产数据分析软件）。这些工具帮助实现数据的可视化表达。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_3_multiple",
+      "unit": "第8章_数据可视化",
+      "type": "multiple",
+      "question": "下列关于数据可视化的描述，正确的有",
+      "options": [
+        {
+          "key": "A",
+          "text": "数据可视化是指将大型数据集中的数据以图形图像形式表示"
+        },
+        {
+          "key": "B",
+          "text": "数据可视化技术的基本思想是将数据库中每一个数据项作为单个图元素表示"
+        },
+        {
+          "key": "C",
+          "text": "利用数据分析和开发工具发现其中未知信息的处理过程"
+        },
+        {
+          "key": "D",
+          "text": "将数据的各个属性值以一维数据的形式表示"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "选项ABC正确。数据可视化的正确描述：图形图像形式表示、数据项作为图元素、发现未知信息。选项D错误，数据可视化是多维表示，不是一维。数据可视化通过多维图形帮助理解数据。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q_0_4_multiple",
+      "unit": "第8章_数据可视化",
+      "type": "multiple",
+      "question": "下列说法中，哪些是正确的",
+      "options": [
+        {
+          "key": "A",
+          "text": "Modest Maps是一个小型、可扩展、交互式的免费库"
+        },
+        {
+          "key": "B",
+          "text": "Leaflet是一个小型化的地图框架，通过小型化和轻量化来满足移动网页的需要"
+        },
+        {
+          "key": "C",
+          "text": "Google Fusion Tables让一般使用者也可以轻松制作出专业的统计地图"
+        },
+        {
+          "key": "D",
+          "text": "大数据魔镜是一款优秀的国产数据分析软件，它丰富的数据公式和算法可以让用户真正理解探索分析数据"
+        }
+      ],
+      "correctAnswer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "选项ABCD都正确。这些工具的描述都正确：Modest Maps（地图库）、Leaflet（轻量地图框架）、Google Fusion Tables（统计地图工具）、大数据魔镜（国产数据分析软件）。这些工具覆盖了地图可视化和数据分析的不同需求。",
       "difficulty": "medium"
     },
     {

@@ -29,7 +29,9 @@ def parse_chapter_file(file_path):
     
     # 按题目分割（题目编号开始）
     # 匹配格式：数字、题目内容、答案（单个或多个字母）
-    question_pattern = r'(\d+)[、.]\s*([^：:]+)[：:]\s*[（(]([A-Z]+)[）)]'
+    # 支持冒号和问号结尾：题目内容：(答案) 或 题目内容？(答案)
+    # 使用非贪婪匹配，确保只匹配到最近的问号或冒号
+    question_pattern = r'(\d+)[、.]\s*([^：:？?\n]+?)[：:？?]\s*[（(]([A-Z]+)[）)]'
     
     # 找到所有题目
     question_matches = list(re.finditer(question_pattern, content))
@@ -38,6 +40,25 @@ def parse_chapter_file(file_path):
         q_num = q_match.group(1)
         question_text = q_match.group(2).strip()
         correct_answer = list(q_match.group(3))
+        
+        # 清理题目文本：如果包含解析内容，需要重新提取
+        # 检查是否误包含了前一道题的解析
+        if '解析' in question_text or '选项' in question_text[:20] or len(question_text) > 150:
+            # 从匹配位置向前查找题目编号
+            match_start = q_match.start()
+            # 查找最近的题目编号位置（在当前匹配之前）
+            num_pattern = rf'{q_num}[、.]'
+            num_match = re.search(num_pattern, content[max(0, match_start-100):match_start])
+            if num_match:
+                num_pos = match_start - 100 + num_match.start()
+                # 从编号后提取到问号或冒号
+                text_start = num_pos + len(num_match.group(0))
+                # 查找问号或冒号
+                for end_char in ['？', '?', '：', ':']:
+                    text_end = content.find(end_char, text_start, match_start + 50)
+                    if text_end != -1:
+                        question_text = content[text_start:text_end].strip()
+                        break
         
         # 判断是单选还是多选
         is_multiple = len(correct_answer) > 1
