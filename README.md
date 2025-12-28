@@ -45,6 +45,10 @@
 - **recharts** - 数据可视化（统计图表）
 - **Vite** - 构建工具
 
+## 在线访问
+
+🌐 **GitHub Pages**: https://zhijun622.github.io/big_data_test/
+
 ## 安装和运行
 
 ### 1. 安装依赖
@@ -139,6 +143,25 @@ npm run build
 }
 ```
 
+## 部署说明
+
+项目已配置 GitHub Actions 自动部署到 GitHub Pages。
+
+### 自动部署
+
+每次推送到 `main` 分支时，GitHub Actions 会自动：
+1. 安装依赖
+2. 构建项目
+3. 部署到 GitHub Pages
+
+### 手动部署
+
+1. 访问仓库 Settings > Pages
+2. 选择 Source: GitHub Actions
+3. 保存设置
+
+网站地址：https://zhijun622.github.io/big_data_test/
+
 ## 注意事项
 
 1. 所有数据使用 `window.storage` API 保存，如果该API不可用，会自动降级到 `localStorage`
@@ -175,4 +198,3 @@ npm run build
 ## 许可证
 
 MIT
-
