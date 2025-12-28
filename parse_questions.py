@@ -57,23 +57,64 @@ def parse_chapter_file(file_path):
         # 只在解析之前的内容中提取选项
         options_block = question_block[:explanation_pos]
         
-        # 匹配选项：字母开头，后面是点或空格，然后是选项内容
-        # 选项应该在单独的行，且不包含"选项"、"解析"等关键词
-        option_pattern = r'^([A-Z])[．.\s]+([^\n]+)$'
+        # 匹配选项：支持多种格式
+        # 格式1: A. 内容
+        # 格式2: A、内容
+        # 格式3: A 内容（A后面直接跟内容，没有标点）
+        option_patterns = [
+            r'^([A-Z])[．.\s]+([^\n]+)$',  # A. 或 A． 格式
+            r'^([A-Z])[、,]\s*([^\n]+)$',  # A、 或 A, 格式
+            r'^([A-Z])([^\n]+)$',          # A 直接跟内容（但需要验证不是解析内容）
+        ]
+        
+        seen_keys = set()
         for line in options_block.split('\n'):
             line = line.strip()
             if not line:
                 continue
-            opt_match = re.match(option_pattern, line)
-            if opt_match:
-                key = opt_match.group(1)
-                text = opt_match.group(2).strip()
-                # 排除解析内容（包含"选项"、"解析"等关键词的行）
-                if '选项' in text or '解析' in text or len(text) > 100:
-                    continue
-                text = re.sub(r'\s+', ' ', text)
-                if text:
-                    options.append({"key": key, "text": text})
+            
+            # 尝试匹配各种格式
+            matched = False
+            for pattern in option_patterns:
+                opt_match = re.match(pattern, line)
+                if opt_match:
+                    key = opt_match.group(1)
+                    text = opt_match.group(2).strip()
+                    
+                    # 跳过重复的选项键
+                    if key in seen_keys:
+                        continue
+                    
+                    # 排除解析内容：更智能的判断
+                    # 1. 如果文本以"选项"开头，很可能是解析内容
+                    if text.startswith('选项'):
+                        continue
+                    # 2. 如果包含"**解析"或"解析：**"，肯定是解析内容
+                    if '**解析' in text or '解析：**' in text:
+                        continue
+                    # 3. 如果文本过长（>200字符），可能是解析内容
+                    if len(text) > 200:
+                        continue
+                    # 4. 如果包含"选项A"、"选项B"等模式，很可能是解析内容
+                    if re.search(r'选项[A-Z]', text):
+                        continue
+                    # 5. 如果包含"都正确"、"都错误"等判断词且很长，可能是解析
+                    if re.search(r'(都|均|全部)(正确|错误)', text) and len(text) > 50:
+                        continue
+                    
+                    text = re.sub(r'\s+', ' ', text)
+                    if text and key not in seen_keys:
+                        options.append({"key": key, "text": text})
+                        seen_keys.add(key)
+                        matched = True
+                        break
+            
+            # 如果已经找到4个选项，可以提前停止
+            if len(options) >= 4:
+                break
+        
+        # 按选项键排序（A、B、C、D）
+        options.sort(key=lambda x: x['key'])
         
         # 提取解析
         explanation = ""
