@@ -384,22 +384,6 @@
         {
           "key": "D",
           "text": "大数据开发推动新技术和新应用的不断涌现"
-        },
-        {
-          "key": "A",
-          "text": "IT基础设施层"
-        },
-        {
-          "key": "B",
-          "text": "数据源层"
-        },
-        {
-          "key": "C",
-          "text": "数据管理层"
-        },
-        {
-          "key": "D",
-          "text": "数据分析层"
         }
       ],
       "correctAnswer": [
@@ -432,10 +416,6 @@
         {
           "key": "D",
           "text": "谷歌"
-        },
-        {
-          "key": "A",
-          "text": "IBM、选项B微软、选项D谷歌虽然都有云计算服务，但AWS是最早的云计算产品之一。"
         }
       ],
       "correctAnswer": [
@@ -759,10 +739,6 @@
         {
           "key": "D",
           "text": "SaaS（软件即服务）"
-        },
-        {
-          "key": "C",
-          "text": "MaaS不是标准的云计算服务模式。"
         }
       ],
       "correctAnswer": [
@@ -1655,22 +1631,6 @@
         {
           "key": "D",
           "text": "大数据成为高级可持续攻击（APT）的载体"
-        },
-        {
-          "key": "A",
-          "text": "全样而非抽样"
-        },
-        {
-          "key": "B",
-          "text": "效率而非精确"
-        },
-        {
-          "key": "C",
-          "text": "相关而非因果"
-        },
-        {
-          "key": "D",
-          "text": "务实而非务虚"
         }
       ],
       "correctAnswer": [
@@ -2049,10 +2009,6 @@
         {
           "key": "D",
           "text": "PPT模式"
-        },
-        {
-          "key": "D",
-          "text": "PPT模式不是数据交易形式，PPT是演示文稿格式。"
         }
       ],
       "correctAnswer": [
@@ -2542,10 +2498,6 @@
         {
           "key": "C",
           "text": "利用网页爬虫程序到互联网网站中爬取数据"
-        },
-        {
-          "key": "A",
-          "text": "ETL工具、选项B日志采集、选项C网页爬虫都是数据采集与预处理的方法和工具。"
         }
       ],
       "correctAnswer": [
@@ -3385,10 +3337,6 @@
         {
           "key": "D",
           "text": "HBase"
-        },
-        {
-          "key": "L",
-          "text": "Server是微软的关系数据库产品，不属于Hadoop生态系统。选项A HDFS（分布式文件系统）、选项C MapReduce（计算框架）、选项D HBase（NoSQL数据库）都是Hadoop生态系统的重要组件。"
         }
       ],
       "correctAnswer": [
@@ -3418,10 +3366,6 @@
         {
           "key": "D",
           "text": "Flume"
-        },
-        {
-          "key": "A",
-          "text": "MySQL是数据库；选项B HDFS是文件系统；选项D Flume是日志采集工具。Sqoop实现了结构化数据在Hadoop和传统数据库之间的传输。"
         }
       ],
       "correctAnswer": [
@@ -3480,10 +3424,6 @@
         {
           "key": "D",
           "text": "HBase"
-        },
-        {
-          "key": "A",
-          "text": "Zookeeper是协调服务；选项C MySQL是数据库；选项D HBase是NoSQL数据库。Mahout提供了分类、聚类、推荐等数据挖掘算法。"
         }
       ],
       "correctAnswer": [
@@ -3513,10 +3453,6 @@
         {
           "key": "D",
           "text": "Flume"
-        },
-        {
-          "key": "A",
-          "text": "Ambari是集群管理工具；选项B Zookeeper是协调服务；选项C HDFS是文件系统。Flume是Hadoop生态系统中重要的数据采集组件。"
         }
       ],
       "correctAnswer": [
@@ -3546,10 +3482,6 @@
         {
           "key": "D",
           "text": "Flume"
-        },
-        {
-          "key": "A",
-          "text": "Kafka是消息队列；选项B YARN是资源管理器；选项D Flume是日志采集工具。Ambari简化了Hadoop集群的管理工作。"
         }
       ],
       "correctAnswer": [
@@ -3662,74 +3594,6 @@
         {
           "key": "D",
           "text": "复杂性低"
-        },
-        {
-          "key": "A",
-          "text": "云数据库是部署和虚拟化在云计算环境中的数据库"
-        },
-        {
-          "key": "B",
-          "text": "云数据库是在云计算的大背景下发展起来的一种新兴的共享基础架构的方法"
-        },
-        {
-          "key": "C",
-          "text": "云数据库价格不菲，维护费用极其昂贵"
-        },
-        {
-          "key": "D",
-          "text": "云数据库具有高可扩展性、高可用性、采用多租形式和支持资源有效分发等特点"
-        },
-        {
-          "key": "A",
-          "text": "本地安装MySQL"
-        },
-        {
-          "key": "B",
-          "text": "阿里云RDS"
-        },
-        {
-          "key": "C",
-          "text": "Oracle Cloud"
-        },
-        {
-          "key": "D",
-          "text": "百度云数据库"
-        },
-        {
-          "key": "C",
-          "text": "Oracle Cloud、选项D百度云数据库都是云数据库产品，部署在云端，提供数据库服务。"
-        },
-        {
-          "key": "A",
-          "text": "动态可扩展"
-        },
-        {
-          "key": "B",
-          "text": "高成本"
-        },
-        {
-          "key": "C",
-          "text": "易用性"
-        },
-        {
-          "key": "D",
-          "text": "大规模并行处理"
-        },
-        {
-          "key": "A",
-          "text": "爬虫持续不断地抓取新页面，这些页面每隔一段时间地存储到BigTable里"
-        },
-        {
-          "key": "B",
-          "text": "BigTable是一个分布式存储系统"
-        },
-        {
-          "key": "C",
-          "text": "BigTable起初用于解决典型的互联网搜索问题"
-        },
-        {
-          "key": "D",
-          "text": "网络搜索应用查询建立好的索引，从BigTable得到网页"
         }
       ],
       "correctAnswer": [
@@ -3978,54 +3842,6 @@
         {
           "key": "D",
           "text": "名称节点会周期性地向数据节点发送\"心跳\"信息，报告自己的状态"
-        },
-        {
-          "key": "A",
-          "text": "性能好（高并发），灵活性高"
-        },
-        {
-          "key": "B",
-          "text": "具备统一的查询语法"
-        },
-        {
-          "key": "C",
-          "text": "文档数据库支持文档间的事务"
-        },
-        {
-          "key": "D",
-          "text": "复杂性低，数据结构灵活"
-        },
-        {
-          "key": "A",
-          "text": "专门用于处理具有高度相互关联关系的数据"
-        },
-        {
-          "key": "B",
-          "text": "比较适合于社交网络、模式识别、依赖分析、推荐系统以及路径寻找等问题"
-        },
-        {
-          "key": "C",
-          "text": "灵活性高，支持复杂的图算法"
-        },
-        {
-          "key": "D",
-          "text": "复杂性高，只能支持一定的数据规模"
-        },
-        {
-          "key": "A",
-          "text": "HBase采用表来组织数据，表由行和列组成，列划分为若干个列族"
-        },
-        {
-          "key": "B",
-          "text": "每个HBase表都由若干行组成，每个行由行键（row key）来标识"
-        },
-        {
-          "key": "C",
-          "text": "列族里的数据通过列限定符（或列）来定位"
-        },
-        {
-          "key": "D",
-          "text": "每个单元格都保存着同一份数据的多个版本，这些版本采用时间戳进行索引"
         }
       ],
       "correctAnswer": [
@@ -4237,10 +4053,6 @@
         {
           "key": "D",
           "text": "TPLINK"
-        },
-        {
-          "key": "A",
-          "text": "GMM（高斯混合模型）、选项B LDA（潜在狄利克雷分配）、选项C DBSCAN（基于密度的聚类）都是聚类方法。聚类是将相似数据分组的技术。"
         }
       ],
       "correctAnswer": [
@@ -4357,10 +4169,6 @@
         {
           "key": "D",
           "text": "GraphX"
-        },
-        {
-          "key": "B",
-          "text": "Storm是流计算技术；选项C Spark Streaming是流计算技术；选项D GraphX是图计算技术。批处理适合处理历史数据，流处理适合处理实时数据。"
         }
       ],
       "correctAnswer": [
@@ -4390,10 +4198,6 @@
         {
           "key": "D",
           "text": "Hive"
-        },
-        {
-          "key": "A",
-          "text": "Spark MLLib是机器学习库；选项B GraphX是图计算技术；选项D Hive是查询分析技术。流计算技术用于处理实时数据流，如Storm、S"
         }
       ],
       "correctAnswer": [
@@ -4423,10 +4227,6 @@
         {
           "key": "D",
           "text": "DStream"
-        },
-        {
-          "key": "B",
-          "text": "Dremel是查询分析技术；选项C Impala是查询分析技术；选项D DStream是流计算技术。图计算技术用于处理图结构数据，如Pregel、GraphX等。"
         }
       ],
       "correctAnswer": [
@@ -4456,42 +4256,6 @@
         {
           "key": "D",
           "text": "Pregel"
-        },
-        {
-          "key": "A",
-          "text": "Spark Streaming是流计算技术；选项B Storm是流计算技术；选项D Pregel是图计算技术。查询分析技术用于交互式查询，如Hive、Impala、Dremel等。"
-        },
-        {
-          "key": "A",
-          "text": "实时获取来自不同数据源的海量数据，经过实时分析处理，获得有价值的信息"
-        },
-        {
-          "key": "B",
-          "text": "流计算秉承一个基本理念，即 数据的价值随着时间的流逝而降低"
-        },
-        {
-          "key": "C",
-          "text": "对于一个流计算系统来说，它应该支持TB级甚至是PB级的数据规模"
-        },
-        {
-          "key": "D",
-          "text": "流计算只需要保证较低的延迟时间，即只达到秒级别即可处理一切问题"
-        },
-        {
-          "key": "A",
-          "text": "在传统的数据处理流程中，存储的数据是旧的"
-        },
-        {
-          "key": "B",
-          "text": "在传统的数据处理流程中，需要用户主动发出查询来获取结果"
-        },
-        {
-          "key": "C",
-          "text": "传统的数据处理流程，需要先采集数据并存储在关系数据库等数据管理系统中"
-        },
-        {
-          "key": "D",
-          "text": "流计算的处理流程一般包含三个阶段：数据实时采集、数据批量计算、实时查询服务"
         }
       ],
       "correctAnswer": [
@@ -4521,26 +4285,6 @@
         {
           "key": "D",
           "text": "Oracle"
-        },
-        {
-          "key": "B",
-          "text": "MySQL是关系数据库；选项C HBase是列族数据库；选项D Oracle是关系数据库。图数据库适合处理复杂的关系网络数据。"
-        },
-        {
-          "key": "A",
-          "text": "MapReduce采用\" 分而治之\"策略"
-        },
-        {
-          "key": "B",
-          "text": "MapReduce设计的一个理念就是\" 计算向数据靠拢\""
-        },
-        {
-          "key": "C",
-          "text": "MapReduce框架采用了Master/Slave架构"
-        },
-        {
-          "key": "D",
-          "text": "MapReduce应用程序只能用Java来写"
         }
       ],
       "correctAnswer": [
@@ -4628,10 +4372,6 @@
         {
           "key": "D",
           "text": "GraphX"
-        },
-        {
-          "key": "A",
-          "text": "Spark Streaming、选项B Structured Streaming、选项D GraphX都是Spark生态系统的组件，分别用于流计算、结构化流计算和图计算。"
         }
       ],
       "correctAnswer": [
@@ -4661,10 +4401,6 @@
         {
           "key": "D",
           "text": "Spark SQL"
-        },
-        {
-          "key": "B",
-          "text": "Spark Core是Spark的核心引擎；选项C Machine Learning不是Spark组件名称；选项D Spark SQL是结构化数据处理组件。MLlib提供了丰富的机器学习算法。"
         }
       ],
       "correctAnswer": [
@@ -4694,10 +4430,6 @@
         {
           "key": "D",
           "text": "Structured Streaming"
-        },
-        {
-          "key": "B",
-          "text": "Spark Core是核心引擎；选项C Spark Streaming是流计算组件；选项D Structured Streaming是结构化流计算组件。Spark SQL可以处理结构化数据和半结构化数据。"
         }
       ],
       "correctAnswer": [
@@ -4998,10 +4730,6 @@
         {
           "key": "D",
           "text": "Bpriori算法"
-        },
-        {
-          "key": "A",
-          "text": "MP-Growth和选项D Bpriori不是标准的关联规则挖掘算法名称。FP-Growth和Apriori是经典的关联规则挖掘算法。"
         }
       ],
       "correctAnswer": [
@@ -5188,10 +4916,6 @@
         {
           "key": "D",
           "text": "Spark"
-        },
-        {
-          "key": "A",
-          "text": "Flink目前不是Hive的标准计算引擎。Hive支持多种计算引擎，提升了灵活性。"
         }
       ],
       "correctAnswer": [
@@ -5471,22 +5195,6 @@
         {
           "key": "D",
           "text": "Spark利用多线程来执行具体的任务"
-        },
-        {
-          "key": "A",
-          "text": "一个RDD就是一个分布式对象集合"
-        },
-        {
-          "key": "B",
-          "text": "一个RDD本质上是一个只读的分区记录集合"
-        },
-        {
-          "key": "C",
-          "text": "RDD提供了一组丰富的操作以支持常见的数据运算，分为\"行动\"（Action）和\"转换\"（Transformation）两种类型"
-        },
-        {
-          "key": "D",
-          "text": "RDD不适合对于数据集中元素执行相同操作的批处理式应用，而比较适合用于需要异步、细粒度状态的应用"
         }
       ],
       "correctAnswer": [
@@ -5518,10 +5226,6 @@
         {
           "key": "D",
           "text": "Local模式"
-        },
-        {
-          "key": "D",
-          "text": "Local模式是本地模式，不是集群部署方式。Spark支持多种集群资源管理器，提供了灵活的部署选择。"
         }
       ],
       "correctAnswer": [
@@ -5538,10 +5242,6 @@
       "type": "multiple",
       "question": "下面关于Spark SQL的描述正确的是",
       "options": [
-        {
-          "key": "A",
-          "text": "Spark SQL在Hive兼容层面仅依赖HiveQL解析和Hive元数据"
-        },
         {
           "key": "B",
           "text": "Spark SQL目前支持Scala、Java编程语言，暂时不支持Python语言"
@@ -5771,10 +5471,6 @@
         {
           "key": "D",
           "text": "TaskTracker"
-        },
-        {
-          "key": "C",
-          "text": "JobTracker和选项D TaskTracker是Hadoop MapReduce的组件，不是Flink的组件。"
         }
       ],
       "correctAnswer": [

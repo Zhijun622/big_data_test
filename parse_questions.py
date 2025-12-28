@@ -49,19 +49,31 @@ def parse_chapter_file(file_path):
         
         # 提取选项（A、B、C、D等）
         options = []
-        # 匹配选项：字母开头，后面是点或空格，然后是选项内容
-        option_pattern = r'([A-Z])[．.\s]+([^\n]+(?:\n(?!\d+[、.]|[\*\*解析])[^\n]+)*)'
-        option_matches = list(re.finditer(option_pattern, question_block))
+        # 找到解析部分的位置，只在这之前提取选项
+        explanation_pos = question_block.find('**解析：**')
+        if explanation_pos == -1:
+            explanation_pos = len(question_block)
         
-        for opt_match in option_matches:
-            key = opt_match.group(1)
-            text = opt_match.group(2).strip()
-            # 移除可能的解析标记和多余空白
-            if '**解析：**' in text:
-                text = text.split('**解析：**')[0].strip()
-            text = re.sub(r'\s+', ' ', text)
-            if text:
-                options.append({"key": key, "text": text})
+        # 只在解析之前的内容中提取选项
+        options_block = question_block[:explanation_pos]
+        
+        # 匹配选项：字母开头，后面是点或空格，然后是选项内容
+        # 选项应该在单独的行，且不包含"选项"、"解析"等关键词
+        option_pattern = r'^([A-Z])[．.\s]+([^\n]+)$'
+        for line in options_block.split('\n'):
+            line = line.strip()
+            if not line:
+                continue
+            opt_match = re.match(option_pattern, line)
+            if opt_match:
+                key = opt_match.group(1)
+                text = opt_match.group(2).strip()
+                # 排除解析内容（包含"选项"、"解析"等关键词的行）
+                if '选项' in text or '解析' in text or len(text) > 100:
+                    continue
+                text = re.sub(r'\s+', ' ', text)
+                if text:
+                    options.append({"key": key, "text": text})
         
         # 提取解析
         explanation = ""
