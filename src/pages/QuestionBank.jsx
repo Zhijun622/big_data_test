@@ -22,7 +22,9 @@ export default function QuestionBank() {
     if (loaded.length === 0) {
       // 首次使用，尝试从questions.json导入
       try {
-        const response = await fetch('/questions.json')
+        // 使用相对路径，兼容GitHub Pages
+        const baseUrl = import.meta.env.BASE_URL || '/'
+        const response = await fetch(`${baseUrl}questions.json`)
         if (response.ok) {
           const data = await response.json()
           const defaultQuestions = data.questions || []
@@ -34,7 +36,7 @@ export default function QuestionBank() {
           }
         }
       } catch (error) {
-        console.log('无法加载默认题目，请手动导入')
+        console.log('无法加载默认题目，请手动导入', error)
       }
     }
     setQuestions(loaded)
