@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Plus, Upload, Search, Filter, Edit2, Trash2 } from 'lucide-react'
+import { Plus, Upload, Search, Filter, Edit2, Trash2, RefreshCw } from 'lucide-react'
 import { dataManager } from '../utils/dataManager'
 
 export default function QuestionBank() {
@@ -20,8 +20,13 @@ export default function QuestionBank() {
 
   const loadQuestions = async () => {
     const loaded = await dataManager.loadQuestions()
-    if (loaded.length === 0) {
-      // 首次使用，尝试从questions.json导入
+    
+    // 检查已加载的题目中是否包含所有课程
+    const loadedCourses = new Set(loaded.map(q => q.course || '大数据导论'))
+    const hasNetworkCourse = loadedCourses.has('计算机网络')
+    
+    // 如果题目为空，或者缺少计算机网络课程，尝试从questions.json导入/更新
+    if (loaded.length === 0 || !hasNetworkCourse) {
       try {
         // 使用相对路径，兼容GitHub Pages
         const baseUrl = import.meta.env.BASE_URL || '/'
@@ -30,9 +35,22 @@ export default function QuestionBank() {
           const data = await response.json()
           const defaultQuestions = data.questions || []
           if (defaultQuestions.length > 0) {
-            await dataManager.saveQuestions(defaultQuestions)
-            setQuestions(defaultQuestions)
-            alert(`成功导入 ${defaultQuestions.length} 道默认题目`)
+            if (loaded.length === 0) {
+              // 首次导入
+              await dataManager.saveQuestions(defaultQuestions)
+              setQuestions(defaultQuestions)
+              alert(`成功导入 ${defaultQuestions.length} 道默认题目`)
+            } else {
+              // 合并更新：保留现有题目，添加新的计算机网络题目
+              const existingIds = new Set(loaded.map(q => q.id))
+              const newQuestions = defaultQuestions.filter(q => !existingIds.has(q.id))
+              const updated = [...loaded, ...newQuestions]
+              await dataManager.saveQuestions(updated)
+              setQuestions(updated)
+              if (newQuestions.length > 0) {
+                alert(`已更新题库，新增 ${newQuestions.length} 道题目（包含计算机网络）`)
+              }
+            }
             return
           }
         }
@@ -94,6 +112,24 @@ export default function QuestionBank() {
     }
   }
 
+  const handleReload = async () => {
+    try {
+      const baseUrl = import.meta.env.BASE_URL || '/'
+      const response = await fetch(`${baseUrl}questions.json`)
+      if (response.ok) {
+        const data = await response.json()
+        const defaultQuestions = data.questions || []
+        if (defaultQuestions.length > 0) {
+          await dataManager.saveQuestions(defaultQuestions)
+          setQuestions(defaultQuestions)
+          alert(`已重新加载题库，共 ${defaultQuestions.length} 道题目`)
+        }
+      }
+    } catch (error) {
+      alert('重新加载失败：' + error.message)
+    }
+  }
+
   const courses = ['all', ...new Set(questions.map(q => q.course || '大数据导论'))]
   const units = ['all', ...new Set(questions.filter(q => selectedCourse === 'all' ? true : (q.course || '大数据导论') === selectedCourse).map(q => q.unit))]
 
@@ -102,6 +138,14 @@ export default function QuestionBank() {
       <div className="mb-6 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-gray-900">题库管理</h1>
         <div className="flex space-x-2">
+          <button
+            onClick={handleReload}
+            className="flex items-center px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700"
+            title="从 questions.json 重新加载题库"
+          >
+            <RefreshCw className="h-4 w-4 mr-2" />
+            重新加载题库
+          </button>
           <button
             onClick={handleImport}
             className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
