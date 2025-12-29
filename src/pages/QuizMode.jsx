@@ -27,7 +27,26 @@ export default function QuizMode() {
   }, [selectedCourse, allQuestions])
 
   const loadUnits = async () => {
-    const questions = await dataManager.loadQuestions()
+    let questions = await dataManager.loadQuestions()
+    
+    // 首次使用，如果本地没有题目，尝试从questions.json导入
+    if (questions.length === 0) {
+      try {
+        const baseUrl = import.meta.env.BASE_URL || '/'
+        const response = await fetch(`${baseUrl}questions.json`)
+        if (response.ok) {
+          const data = await response.json()
+          const defaultQuestions = data.questions || []
+          if (defaultQuestions.length > 0) {
+            await dataManager.saveQuestions(defaultQuestions)
+            questions = defaultQuestions
+          }
+        }
+      } catch (error) {
+        console.log('无法加载默认题目', error)
+      }
+    }
+    
     setAllQuestions(questions)
     const uniqueCourses = [...new Set(questions.map(q => q.course || '大数据导论'))]
     setCourses(uniqueCourses)
