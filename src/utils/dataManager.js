@@ -7,7 +7,12 @@ export const dataManager = {
     try {
       const result = await storage.get('quiz-bank', false)
       if (result && result.value) {
-        return JSON.parse(result.value)
+        const parsed = JSON.parse(result.value)
+        // 兼容旧数据：补充 course 字段
+        return parsed.map(q => ({
+          course: q.course || '大数据导论',
+          ...q
+        }))
       }
       return []
     } catch (error) {
@@ -73,16 +78,24 @@ export const dataManager = {
 
   // 添加错题
   async addWrongQuestion(questionId) {
+    if (!questionId) {
+      console.error('addWrongQuestion: questionId 为空')
+      return
+    }
+    
     const wrongList = await this.loadWrongQuestions()
-    const existing = wrongList.find(w => w.questionId === questionId)
+    // 确保questionId是字符串类型进行匹配
+    const existing = wrongList.find(w => String(w.questionId) === String(questionId))
     
     if (existing) {
+      // 如果已存在，增加错误次数
       existing.wrongCount += 1
       existing.lastWrongTime = Date.now()
-      existing.mastered = false
+      existing.mastered = false // 确保未掌握状态
     } else {
+      // 如果不存在，添加新记录
       wrongList.push({
-        questionId,
+        questionId: String(questionId), // 确保是字符串
         wrongCount: 1,
         lastWrongTime: Date.now(),
         mastered: false

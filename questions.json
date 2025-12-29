@@ -6210,6 +6210,1582 @@
       ],
       "explanation": "选项ABD正确。可视化图表的正确描述：漏斗图用于流程分析、树图表达层次数据、词云突出关键词。选项C错误，桑基图是用于显示流量和流向的图表，不是显示页面区域和地理区域的工具。热力图才是显示页面区域和地理区域的工具。",
       "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "计算机网络最基本的服务是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "互联网的核心部分采用的技术是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "以下哪项不是分组交换的优点?",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "在TCP/IP体系结构中，网际层对应的协议是:",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "以下哪项是传输层的协议?",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "时延带宽积的单位是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "以下哪项不是计算机网络的性能指标?",
+      "options": [],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "互联网标准化工作的文档形式是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "以下哪项是网络层的功能?",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "中国第一个公用分组交换网是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "计算机网络的定义中，可编程的硬件必须包含____。",
+      "options": [],
+      "correctAnswer": [
+        "中央处理器",
+        "CPU"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "互联网的核心部分由大量网络和连接这些网络的____组成。",
+      "options": [],
+      "correctAnswer": [
+        "路由器"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "分组交换中，数据段前面添加的部分称为____。",
+      "options": [],
+      "correctAnswer": [
+        "首部",
+        "包头"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "时延的四个组成部分是发送时延、传播时延、处理时延和____。",
+      "options": [],
+      "correctAnswer": [
+        "排队时延"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "TCP/IP体系结构中，运输层的两个主要协议是TCP和____。",
+      "options": [],
+      "correctAnswer": [
+        "UDP"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "互联网的标准化工作由____文档形式发布。",
+      "options": [],
+      "correctAnswer": [
+        "RFC"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "中国第一个IPv4互联网主干网是____。",
+      "options": [],
+      "correctAnswer": [
+        "CERNET"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "网络协议的三要素是语法、语义和____。",
+      "options": [],
+      "correctAnswer": [
+        "同步"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "在OSI参考模型中，对等层次之间传送的数据单位称为____。",
+      "options": [],
+      "correctAnswer": [
+        "协议数据单元",
+        "PDU"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch1_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第一章单元测验",
+      "type": "fill",
+      "question": "互联网中，客户-服务器方式的通信是通过____层实现的。",
+      "options": [],
+      "correctAnswer": [
+        "应用"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "物理层的主要任务是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "以下哪种编码方式具有自同步能力?",
+      "options": [],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "香农公式用于计算:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "单模光纤与多模光纤的主要区别是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "以下哪种复用技术通过分配不同频带实现多用户共享信道?",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "ADSL技术的“非对称”特性是指:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "卫星通信的主要缺点是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "以下哪种传输媒体抗电磁干扰能力最强?",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "在CDMA系统中，不同用户的区分依据是:",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "SONET/SDH标准的主要意义是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "物理层定义的四个接口特性是:机械特性、电气特性、功能特性和____。",
+      "options": [],
+      "correctAnswer": [
+        "过程特性"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "奈奎斯特准则指出，带宽为W的低通信道，码元传输的最高速率为____。",
+      "options": [],
+      "correctAnswer": [
+        "2W(码元",
+        "秒)"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "光纤通信中，光信号在纤芯中的传播方式是____。",
+      "options": [],
+      "correctAnswer": [
+        "全反射"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "无线通信中，信号通过多条路径到达接收端导致失真的现象称为____。",
+      "options": [],
+      "correctAnswer": [
+        "多径效应"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "频分复用(FDM)中，所有用户在同一时间占用不同的____资源。",
+      "options": [],
+      "correctAnswer": [
+        "频带",
+        "带宽"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "ADSL技术利用____调制技术实现高频谱利用率。",
+      "options": [],
+      "correctAnswer": [
+        "DMT",
+        "离散多音调"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "HFC网中，将同轴电缆主干部分替换为____以提高性能。",
+      "options": [],
+      "correctAnswer": [
+        "光纤"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "无源光网络(PON)中，上行和下行信号通过____复用技术区分。",
+      "options": [],
+      "correctAnswer": [
+        "波分复用",
+        "WDM"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "同步数字系列(SDH)的基本速率是____。",
+      "options": [],
+      "correctAnswer": [
+        "155.52",
+        "Mbit",
+        "s",
+        "STM-1"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch2_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第二章单元测验",
+      "type": "fill",
+      "question": "在CDMA系统中，码片序列的规格化内积为1表示____。",
+      "options": [],
+      "correctAnswer": [
+        "发送比特1"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "数据链路层的主要功能是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以下哪种编码方式具有自同步能力?",
+      "options": [],
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "CSMA/CD协议中，检测到碰撞后采取的措施是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以太网的最短有效帧长为:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "在PPP协议中，用于标识IP数据报的协议字段值是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以太网交换机通过什么方式学习MAC地址?",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "VLAN的主要作用是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "100BASE-T以太网的最大网段长度是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "吉比特以太网在全双工方式下工作时:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以下哪种设备工作在数据链路层?",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "数据链路层的协议数据单元是____。",
+      "options": [],
+      "correctAnswer": [
+        "帧"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "循环冗余检验(CRC)用于检测帧传输中的____。",
+      "options": [],
+      "correctAnswer": [
+        "比特差错"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "CSMA/CD协议中的“CD”表示____。",
+      "options": [],
+      "correctAnswer": [
+        "碰撞检测"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以太网交换机通过____表来转发帧。",
+      "options": [],
+      "correctAnswer": [
+        "交换（或MAC地址）"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "VLAN的划分可以基于端口、MAC地址、协议类型或____。",
+      "options": [],
+      "correctAnswer": [
+        "IP子网地址"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "PPP协议的三组成部分是:封装方法、LCP和____。",
+      "options": [],
+      "correctAnswer": [
+        "NCP"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "10吉比特以太网(10GE)仅支持____工作方式。",
+      "options": [],
+      "correctAnswer": [
+        "全双工"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "以太网的最小帧长是为了确保能够检测到____。",
+      "options": [],
+      "correctAnswer": [
+        "碰撞"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "在PPP协议中，字节填充的目的是解决____问题。",
+      "options": [],
+      "correctAnswer": [
+        "透明传输"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch3_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第三章单元测验",
+      "type": "fill",
+      "question": "吉比特以太网在半双工方式下通过____和分组突发来保持兼容性。",
+      "options": [],
+      "correctAnswer": [
+        "载波延伸"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "网络层提供的两种服务是( )",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "IPv4地址的长度是( )",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "CIDR的主要作用是( )",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "ARP协议的功能是( )",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "IP数据报的首部长度最大为( )",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "RIP协议的最大跳数是( )",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "OSPF协议使用的算法是( )",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "BGP协议主要用于( )",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "VPN的全称是( )",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "MPLS的首部位于( )",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "网络层的两个层面是____和____。",
+      "options": [],
+      "correctAnswer": [
+        "数据层面"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "IPv6的地址长度是____位。",
+      "options": [],
+      "correctAnswer": [
+        "128"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "ICMP的全称是____。",
+      "options": [],
+      "correctAnswer": [
+        "Internet",
+        "Control",
+        "Message",
+        "Protocol"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "RIP协议通过____算法计算路由。",
+      "options": [],
+      "correctAnswer": [
+        "距离向量"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "OSPF协议通过____算法计算最短路径。",
+      "options": [],
+      "correctAnswer": [
+        "Dijkstra"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "BGP协议通过____属性避免路由环路。",
+      "options": [],
+      "correctAnswer": [
+        "AS-PATH"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "NAT的全称是____。",
+      "options": [],
+      "correctAnswer": [
+        "Network",
+        "Address",
+        "Translation"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "MPLS的标签长度为____位。",
+      "options": [],
+      "correctAnswer": [
+        "20"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "SDN的核心思想是将____和____分离。",
+      "options": [],
+      "correctAnswer": [
+        "控制层面"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch4_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第四章单元测验",
+      "type": "fill",
+      "question": "OpenFlow协议用于____和____之间的通信。",
+      "options": [],
+      "correctAnswer": [
+        "SDN控制器"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "运输层的主要作用是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "UDP协议的特点是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP协议中，用于建立连接的标志位是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的滑动窗口机制主要用于:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的拥塞控制算法中，慢开始阶段的窗口增长方式是:",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP连接释放过程中，FIN报文段的作用是:",
+      "options": [],
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP报文段首部中，用于标识紧急数据的字段是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的可靠传输是通过以下哪种机制实现的?",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的流量控制是通过以下哪个字段实现的?",
+      "options": [],
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP连接建立时采用“三报文握手”的主要目的是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "运输层的两个主要协议是____和____。",
+      "options": [],
+      "correctAnswer": [
+        "TCP"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "UDP的首部长度为____字节。",
+      "options": [],
+      "correctAnswer": [
+        "8"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的滑动窗口是以____为单位的。",
+      "options": [],
+      "correctAnswer": [
+        "字节"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP连接建立时，SYN报文段的序号字段值为____。",
+      "options": [],
+      "correctAnswer": [
+        "初始序号(如x)"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的拥塞控制算法包括慢开始、____、快重传和快恢复。",
+      "options": [],
+      "correctAnswer": [
+        "拥塞避免"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP连接释放时，TIME-WAIT状态的持续时间通常为____。",
+      "options": [],
+      "correctAnswer": [
+        "2MSL"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的检验和字段用于检测____和数据的错误。",
+      "options": [],
+      "correctAnswer": [
+        "首部"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的端口号长度为____位。",
+      "options": [],
+      "correctAnswer": [
+        "16"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的流量控制是通过____机制实现的。",
+      "options": [],
+      "correctAnswer": [
+        "滑动窗口"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch5_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第五章单元测验",
+      "type": "fill",
+      "question": "TCP的拥塞窗口(cwnd)是根据____动态调整的。",
+      "options": [],
+      "correctAnswer": [
+        "网络拥塞程度"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q1_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "DNS的主要功能是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q2_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "FTP协议使用的默认端口号是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q3_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "HTTP协议中，用于请求服务器发送资源的请求方法是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q4_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "SMTP协议用于:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q5_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "POP3和IMAP的主要区别是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q6_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "DHCP协议的主要功能是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q7_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "SNMP协议中，用于管理站查询代理信息的操作是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q8_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "P2P文件共享中，BitTorrent协议的核心组件是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q9_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "MIME协议的主要作用是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q10_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "在HTTP/1.1中，持续连接的主要优点是:",
+      "options": [],
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q11_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "DNS解析中，本地域名服务器查询的顶级域名服务器类型是____。",
+      "options": [],
+      "correctAnswer": [
+        "根域名服务器"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q12_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "FTP协议中，用于传输数据的连接端口号是____。",
+      "options": [],
+      "correctAnswer": [
+        "20"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q13_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "HTTP协议中，状态码200表示____。",
+      "options": [],
+      "correctAnswer": [
+        "请求成功"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q14_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "电子邮件的信封信息中，用于标识收件人的字段是____。",
+      "options": [],
+      "correctAnswer": [
+        "RCPT",
+        "TO"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q15_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "DHCP协议中，客户端通过____报文请求IP地址。",
+      "options": [],
+      "correctAnswer": [
+        "DHCPDISCOVER"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q16_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "SNMP协议中，代理主动向管理站发送的事件报告称为____。",
+      "options": [],
+      "correctAnswer": [
+        "Trap"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q17_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "P2P文件共享中，BitTorrent协议将文件分割为多个____。",
+      "options": [],
+      "correctAnswer": [
+        "文件块(chunk)"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q18_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "MIME协议中，用于标识内容类型的首部字段是____。",
+      "options": [],
+      "correctAnswer": [
+        "Content-Type"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q19_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "HTTP/2协议通过____技术提高传输效率。",
+      "options": [],
+      "correctAnswer": [
+        "多路复用"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "net_ch6_q20_fill",
+      "course": "计算机网络",
+      "unit": "计算机网络_第六章单元测验",
+      "type": "fill",
+      "question": "在DNS系统中，权限域名服务器负责管理____。",
+      "options": [],
+      "correctAnswer": [
+        "区(zone)"
+      ],
+      "explanation": "",
+      "difficulty": "medium"
     }
   ]
 }

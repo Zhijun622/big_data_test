@@ -5,6 +5,7 @@ import { dataManager } from '../utils/dataManager'
 export default function QuestionBank() {
   const [questions, setQuestions] = useState([])
   const [filteredQuestions, setFilteredQuestions] = useState([])
+  const [selectedCourse, setSelectedCourse] = useState('all')
   const [selectedUnit, setSelectedUnit] = useState('all')
   const [searchText, setSearchText] = useState('')
   const [showAddForm, setShowAddForm] = useState(false)
@@ -15,7 +16,7 @@ export default function QuestionBank() {
 
   useEffect(() => {
     filterQuestions()
-  }, [questions, selectedUnit, searchText])
+  }, [questions, selectedCourse, selectedUnit, searchText])
 
   const loadQuestions = async () => {
     const loaded = await dataManager.loadQuestions()
@@ -44,6 +45,10 @@ export default function QuestionBank() {
 
   const filterQuestions = () => {
     let filtered = questions
+
+    if (selectedCourse !== 'all') {
+      filtered = filtered.filter(q => (q.course || '大数据导论') === selectedCourse)
+    }
 
     if (selectedUnit !== 'all') {
       filtered = filtered.filter(q => q.unit === selectedUnit)
@@ -89,7 +94,8 @@ export default function QuestionBank() {
     }
   }
 
-  const units = ['all', ...new Set(questions.map(q => q.unit))]
+  const courses = ['all', ...new Set(questions.map(q => q.course || '大数据导论'))]
+  const units = ['all', ...new Set(questions.filter(q => selectedCourse === 'all' ? true : (q.course || '大数据导论') === selectedCourse).map(q => q.unit))]
 
   return (
     <div>
@@ -128,6 +134,21 @@ export default function QuestionBank() {
           <div className="flex items-center">
             <Filter className="h-4 w-4 text-gray-400 mr-2" />
             <select
+              value={selectedCourse}
+              onChange={(e) => {
+                setSelectedCourse(e.target.value)
+                setSelectedUnit('all')
+              }}
+              className="px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 mr-3"
+            >
+              {courses.map(course => (
+                <option key={course} value={course}>
+                  {course === 'all' ? '全部通道' : course}
+                </option>
+              ))}
+            </select>
+            <Filter className="h-4 w-4 text-gray-400 mr-2" />
+            <select
               value={selectedUnit}
               onChange={(e) => setSelectedUnit(e.target.value)}
               className="px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
@@ -161,7 +182,7 @@ export default function QuestionBank() {
                     }`}>
                       {q.type === 'single' ? '单选' : '多选'}
                     </span>
-                    <span className="ml-2 text-sm text-gray-500">{q.unit}</span>
+                  <span className="ml-2 text-sm text-gray-500">{q.course || '大数据导论'} / {q.unit}</span>
                   </div>
                   <p className="text-gray-900 font-medium mb-2">{q.question}</p>
                   <div className="grid grid-cols-2 gap-2 text-sm text-gray-600">

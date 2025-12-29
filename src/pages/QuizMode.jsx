@@ -5,22 +5,42 @@ import { dataManager } from '../utils/dataManager'
 
 export default function QuizMode() {
   const navigate = useNavigate()
+  const [courses, setCourses] = useState([])
   const [units, setUnits] = useState([])
+  const [selectedCourse, setSelectedCourse] = useState('')
   const [selectedUnit, setSelectedUnit] = useState('')
   const [randomCount, setRandomCount] = useState(20)
+  const [allQuestions, setAllQuestions] = useState([])
 
   useEffect(() => {
     loadUnits()
   }, [])
 
+  useEffect(() => {
+    if (allQuestions.length === 0) return
+    const filteredUnits = allQuestions
+      .filter(q => !selectedCourse || (q.course || '大数据导论') === selectedCourse)
+      .map(q => q.unit)
+    const uniqueUnits = [...new Set(filteredUnits)]
+    setUnits(uniqueUnits)
+    setSelectedUnit('')
+  }, [selectedCourse, allQuestions])
+
   const loadUnits = async () => {
     const questions = await dataManager.loadQuestions()
-    const uniqueUnits = [...new Set(questions.map(q => q.unit))]
-    setUnits(uniqueUnits)
+    setAllQuestions(questions)
+    const uniqueCourses = [...new Set(questions.map(q => q.course || '大数据导论'))]
+    setCourses(uniqueCourses)
+    if (!selectedCourse && uniqueCourses.length > 0) {
+      setSelectedCourse(uniqueCourses[0])
+    }
   }
 
   const handleStartQuiz = (mode) => {
     let url = `/quiz?mode=${mode}`
+    if (selectedCourse) {
+      url += `&course=${encodeURIComponent(selectedCourse)}`
+    }
     if (mode === 'unit' && selectedUnit) {
       url += `&unit=${encodeURIComponent(selectedUnit)}`
     } else if (mode === 'random') {
@@ -64,6 +84,20 @@ export default function QuizMode() {
     <div className="max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-gray-900 mb-6">选择测验模式</h1>
 
+      <div className="bg-white rounded-lg shadow p-4 mb-6">
+        <label className="text-sm font-medium text-gray-700 mr-3">选择通道：</label>
+        <select
+          value={selectedCourse}
+          onChange={(e) => setSelectedCourse(e.target.value)}
+          className="px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
+        >
+          {courses.map(course => (
+            <option key={course} value={course}>{course}</option>
+          ))}
+        </select>
+        <span className="ml-3 text-gray-500 text-sm">先选择「大数据导论」或「计算机网络」，再选择测验模式</span>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         {modes.map((mode) => {
           const Icon = mode.icon
@@ -79,10 +113,7 @@ export default function QuizMode() {
               key={mode.id}
               className={`p-6 rounded-lg border-2 cursor-pointer transition-all ${colorClasses[mode.color]}`}
               onClick={() => {
-                if (mode.id === 'unit' && units.length > 0) {
-                  // 需要选择单元
-                  return
-                }
+                if (mode.id === 'unit') return
                 handleStartQuiz(mode.id)
               }}
             >

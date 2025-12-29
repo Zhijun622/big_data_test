@@ -47,7 +47,8 @@
 
 ## 在线访问
 
-🌐 **GitHub Pages**: https://zhijun622.github.io/big_data_test/
+🌐 **GitHub Pages**（含“大数据导论”与“计算机网络”两条通道）  
+https://zhijun622.github.io/big_data_test/
 
 ## 安装和运行
 

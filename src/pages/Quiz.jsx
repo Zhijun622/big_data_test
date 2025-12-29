@@ -18,33 +18,39 @@ export default function Quiz() {
     const quizMode = params.get('mode') || 'all'
     const unit = params.get('unit')
     const count = params.get('count')
+    const course = params.get('course')
 
-    loadQuestions(quizMode, unit, count)
+    loadQuestions(quizMode, unit, count, course)
   }, [])
 
-  const loadQuestions = async (quizMode, unit, count) => {
+  const loadQuestions = async (quizMode, unit, count, course) => {
     const allQuestions = await dataManager.loadQuestions()
     let selectedQuestions = []
+    const courseFiltered = course
+      ? allQuestions.filter(q => (q.course || '大数据导论') === course)
+      : allQuestions
 
     switch (quizMode) {
       case 'all':
-        selectedQuestions = allQuestions
+        selectedQuestions = courseFiltered
         break
       case 'unit':
-        selectedQuestions = allQuestions.filter(q => q.unit === unit)
+        selectedQuestions = courseFiltered.filter(q => q.unit === unit)
         break
       case 'random':
         const randomCount = parseInt(count) || 20
-        const shuffled = [...allQuestions].sort(() => Math.random() - 0.5)
+        const shuffled = [...courseFiltered].sort(() => Math.random() - 0.5)
         selectedQuestions = shuffled.slice(0, randomCount)
         break
       case 'wrong':
         const wrongList = await dataManager.loadWrongQuestions()
-        const wrongIds = wrongList.filter(w => !w.mastered).map(w => w.questionId)
-        selectedQuestions = allQuestions.filter(q => wrongIds.includes(q.id))
+        const wrongIds = wrongList
+          .filter(w => !w.mastered)
+          .map(w => w.questionId)
+        selectedQuestions = courseFiltered.filter(q => wrongIds.includes(q.id))
         break
       default:
-        selectedQuestions = allQuestions
+        selectedQuestions = courseFiltered
     }
 
     setQuestions(selectedQuestions)
@@ -58,6 +64,8 @@ export default function Quiz() {
 
     if (question.type === 'single') {
       setAnswers({ ...answers, [questionId]: [optionKey] })
+    } else if (question.type === 'fill') {
+      setAnswers({ ...answers, [questionId]: optionKey })
     } else {
       const current = answers[questionId] || []
       if (current.includes(optionKey)) {
@@ -77,21 +85,67 @@ export default function Quiz() {
     let correctCount = 0
 
     for (const question of questions) {
-      const userAnswer = (answers[question.id] || []).sort()
-      const correctAnswer = [...question.correctAnswer].sort()
-      const isCorrect = JSON.stringify(userAnswer) === JSON.stringify(correctAnswer)
+      const correctAnswer = [...question.correctAnswer]
+      let normalizedUserAnswer = []
+      let normalizedCorrectAnswer = []
+      let isCorrect = false
+      let hasAnswer = false
 
+      if (question.type === 'fill') {
+        const userInput = answers[question.id] || ''
+        hasAnswer = Boolean((userInput || '').toString().trim())
+        const normalizeText = (txt) =>
+          String(txt || '')
+            .replace(/[\\s]/g, '')
+            .replace(/；/g, ';')
+            .toLowerCase()
+            .trim()
+        const userNorm = normalizeText(userInput)
+        normalizedCorrectAnswer = correctAnswer.map(a => normalizeText(a))
+        normalizedUserAnswer = [userInput]
+        isCorrect = hasAnswer && normalizedCorrectAnswer.includes(userNorm)
+      } else {
+        const userAnswer = (answers[question.id] || []).sort()
+        // 如果用户没有选择任何答案，也视为错误
+        hasAnswer = userAnswer.length > 0
+        
+        // 确保答案数组都是字符串类型，然后比较
+        normalizedUserAnswer = userAnswer.map(a => String(a)).sort()
+        normalizedCorrectAnswer = correctAnswer.map(a => String(a)).sort()
+        isCorrect = hasAnswer && JSON.stringify(normalizedUserAnswer) === JSON.stringify(normalizedCorrectAnswer)
+      }
+
+      // 添加调试信息（仅在开发环境）
+      if (process.env.NODE_ENV === 'development') {
+        console.log(`题目 ${question.id}:`, {
+          userAnswer: normalizedUserAnswer,
+          correctAnswer: normalizedCorrectAnswer,
+          isCorrect,
+          hasAnswer
+        })
+      }
+
+      // 关键：只有答错的题目才添加到错题本
       if (isCorrect) {
         correctCount++
+        // 答对的题目不添加到错题本，也不做任何操作
       } else {
-        // 添加到错题本
-        await dataManager.addWrongQuestion(question.id)
+        // 答错的题目添加到错题本
+        try {
+          await dataManager.addWrongQuestion(question.id)
+          if (process.env.NODE_ENV === 'development') {
+            console.log(`❌ 题目 ${question.id} 答错了，已添加到错题本`)
+          }
+        } catch (error) {
+          console.error('添加错题失败:', question.id, error)
+        }
       }
 
       details.push({
         questionId: question.id,
-        userAnswer,
-        isCorrect
+        userAnswer: normalizedUserAnswer,
+        isCorrect,
+        hasAnswer
       })
     }
 
@@ -241,59 +295,74 @@ export default function Quiz() {
             <span className={`px-3 py-1 text-sm font-medium rounded ${
               currentQuestion.type === 'single'
                 ? 'bg-blue-100 text-blue-700'
-                : 'bg-purple-100 text-purple-700'
+                : currentQuestion.type === 'fill'
+                  ? 'bg-orange-100 text-orange-700'
+                  : 'bg-purple-100 text-purple-700'
             }`}>
-              {currentQuestion.type === 'single' ? '单选题' : '多选题'}
+              {currentQuestion.type === 'single' ? '单选题' : currentQuestion.type === 'fill' ? '填空题' : '多选题'}
             </span>
             <span className="ml-3 text-sm text-gray-500">{currentQuestion.unit}</span>
           </div>
 
           <h3 className="text-xl font-bold mb-6">{currentQuestion.question}</h3>
 
-          <div className="space-y-3 mb-8">
-            {currentQuestion.options.map((opt) => {
-              const isSelected = userAnswer.includes(opt.key)
-              return (
-                <button
-                  key={opt.key}
-                  onClick={() => handleAnswerChange(currentQuestion.id, opt.key)}
-                  className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
-                    isSelected
-                      ? 'border-blue-500 bg-blue-50'
-                      : 'border-gray-200 hover:border-gray-300'
-                  }`}
-                >
-                  <div className="flex items-center">
-                    {currentQuestion.type === 'single' ? (
-                      <div
-                        className={`w-5 h-5 rounded-full border-2 mr-3 flex items-center justify-center ${
-                          isSelected
-                            ? 'border-blue-500 bg-blue-500'
-                            : 'border-gray-300'
-                        }`}
-                      >
-                        {isSelected && (
-                          <div className="w-2 h-2 rounded-full bg-white" />
-                        )}
-                      </div>
-                    ) : (
-                      <div
-                        className={`w-5 h-5 rounded border-2 mr-3 flex items-center justify-center ${
-                          isSelected
-                            ? 'border-blue-500 bg-blue-500'
-                            : 'border-gray-300'
-                        }`}
-                      >
-                        {isSelected && <Check className="h-3 w-3 text-white" />}
-                      </div>
-                    )}
-                    <span className="font-medium mr-2">{opt.key}.</span>
-                    <span>{opt.text}</span>
-                  </div>
-                </button>
-              )
-            })}
-          </div>
+          {currentQuestion.type === 'fill' ? (
+            <div className="mb-8">
+              <textarea
+                className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-blue-500"
+                rows={3}
+                placeholder="请输入答案"
+                value={answers[currentQuestion.id] || ''}
+                onChange={(e) => handleAnswerChange(currentQuestion.id, e.target.value)}
+              />
+              <p className="text-sm text-gray-500 mt-2">填空题不区分大小写，会自动忽略空格和中文分号差异。</p>
+            </div>
+          ) : (
+            <div className="space-y-3 mb-8">
+              {currentQuestion.options.map((opt) => {
+                const isSelected = userAnswer.includes(opt.key)
+                return (
+                  <button
+                    key={opt.key}
+                    onClick={() => handleAnswerChange(currentQuestion.id, opt.key)}
+                    className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                      isSelected
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <div className="flex items-center">
+                      {currentQuestion.type === 'single' ? (
+                        <div
+                          className={`w-5 h-5 rounded-full border-2 mr-3 flex items-center justify-center ${
+                            isSelected
+                              ? 'border-blue-500 bg-blue-500'
+                              : 'border-gray-300'
+                          }`}
+                        >
+                          {isSelected && (
+                            <div className="w-2 h-2 rounded-full bg-white" />
+                          )}
+                        </div>
+                      ) : (
+                        <div
+                          className={`w-5 h-5 rounded border-2 mr-3 flex items-center justify-center ${
+                            isSelected
+                              ? 'border-blue-500 bg-blue-500'
+                              : 'border-gray-300'
+                          }`}
+                        >
+                          {isSelected && <Check className="h-3 w-3 text-white" />}
+                        </div>
+                      )}
+                      <span className="font-medium mr-2">{opt.key}.</span>
+                      <span>{opt.text}</span>
+                    </div>
+                  </button>
+                )
+              })}
+            </div>
+          )}
 
           <div className="flex justify-between">
             <button
