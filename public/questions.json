@@ -6212,12 +6212,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q1_fill",
+      "id": "net_ch1_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "计算机网络最基本的服务是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "信息传递"
+        },
+        {
+          "key": "B",
+          "text": "资源共享"
+        },
+        {
+          "key": "C",
+          "text": "远程控制"
+        },
+        {
+          "key": "D",
+          "text": "数据加密"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6225,12 +6242,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q2_fill",
+      "id": "net_ch1_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "互联网的核心部分采用的技术是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "电路交换"
+        },
+        {
+          "key": "B",
+          "text": "分组交换"
+        },
+        {
+          "key": "C",
+          "text": "报文交换"
+        },
+        {
+          "key": "D",
+          "text": "混合交换"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6238,12 +6272,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q3_fill",
+      "id": "net_ch1_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪项不是分组交换的优点?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "动态分配带宽"
+        },
+        {
+          "key": "B",
+          "text": "高可靠性"
+        },
+        {
+          "key": "C",
+          "text": "低延迟"
+        },
+        {
+          "key": "D",
+          "text": "适用于突发数据"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6251,12 +6302,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q4_fill",
+      "id": "net_ch1_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "在TCP/IP体系结构中，网际层对应的协议是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "HTTP"
+        },
+        {
+          "key": "B",
+          "text": "TCP"
+        },
+        {
+          "key": "C",
+          "text": "IP"
+        },
+        {
+          "key": "D",
+          "text": "UDP"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6264,12 +6332,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q5_fill",
+      "id": "net_ch1_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪项是传输层的协议?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "IP"
+        },
+        {
+          "key": "B",
+          "text": "FTP"
+        },
+        {
+          "key": "C",
+          "text": "TCP"
+        },
+        {
+          "key": "D",
+          "text": "ARP"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6277,12 +6362,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q6_fill",
+      "id": "net_ch1_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "时延带宽积的单位是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "秒"
+        },
+        {
+          "key": "B",
+          "text": "比特"
+        },
+        {
+          "key": "C",
+          "text": "比特/秒"
+        },
+        {
+          "key": "D",
+          "text": "字节"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6290,12 +6392,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q7_fill",
+      "id": "net_ch1_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪项不是计算机网络的性能指标?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "速率"
+        },
+        {
+          "key": "B",
+          "text": "带宽"
+        },
+        {
+          "key": "C",
+          "text": "吞吐量"
+        },
+        {
+          "key": "D",
+          "text": "安全性"
+        }
+      ],
       "correctAnswer": [
         "D"
       ],
@@ -6303,12 +6422,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q8_fill",
+      "id": "net_ch1_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "互联网标准化工作的文档形式是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "ISO"
+        },
+        {
+          "key": "B",
+          "text": "RFC"
+        },
+        {
+          "key": "C",
+          "text": "IEEE"
+        },
+        {
+          "key": "D",
+          "text": "ANSI"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6316,12 +6452,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q9_fill",
+      "id": "net_ch1_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪项是网络层的功能?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "比特传输"
+        },
+        {
+          "key": "B",
+          "text": "帧传输"
+        },
+        {
+          "key": "C",
+          "text": "路由选择"
+        },
+        {
+          "key": "D",
+          "text": "进程通信"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6329,12 +6482,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch1_q10_fill",
+      "id": "net_ch1_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第一章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "中国第一个公用分组交换网是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "CHINANET"
+        },
+        {
+          "key": "B",
+          "text": "CNPAC"
+        },
+        {
+          "key": "C",
+          "text": "CERNET"
+        },
+        {
+          "key": "D",
+          "text": "CSTNET"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6475,12 +6645,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q1_fill",
+      "id": "net_ch2_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "物理层的主要任务是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "在传输媒体上传输数据比特流"
+        },
+        {
+          "key": "B",
+          "text": "提供端到端的可靠通信"
+        },
+        {
+          "key": "C",
+          "text": "定义网络拓扑结构"
+        },
+        {
+          "key": "D",
+          "text": "管理网络设备"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6488,12 +6675,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q2_fill",
+      "id": "net_ch2_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪种编码方式具有自同步能力?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "不归零制"
+        },
+        {
+          "key": "B",
+          "text": "曼彻斯特编码"
+        },
+        {
+          "key": "C",
+          "text": "差分曼彻斯特编码"
+        },
+        {
+          "key": "D",
+          "text": "B和C"
+        }
+      ],
       "correctAnswer": [
         "D"
       ],
@@ -6501,12 +6705,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q3_fill",
+      "id": "net_ch2_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "香农公式用于计算:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "信道的极限信息传输速率"
+        },
+        {
+          "key": "B",
+          "text": "信号的传播时延"
+        },
+        {
+          "key": "C",
+          "text": "码元传输的最高速率"
+        },
+        {
+          "key": "D",
+          "text": "信噪比的单位"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6514,12 +6735,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q4_fill",
+      "id": "net_ch2_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "单模光纤与多模光纤的主要区别是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "单模光纤直径更小，光线直线传播"
+        },
+        {
+          "key": "B",
+          "text": "多模光纤制造成本更低"
+        },
+        {
+          "key": "C",
+          "text": "单模光纤使用发光二极管作为光源"
+        },
+        {
+          "key": "D",
+          "text": "多模光纤适合长距离传输"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6527,12 +6765,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q5_fill",
+      "id": "net_ch2_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪种复用技术通过分配不同频带实现多用户共享信道?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "时分复用(TDM)"
+        },
+        {
+          "key": "B",
+          "text": "频分复用(FDM)"
+        },
+        {
+          "key": "C",
+          "text": "码分复用(CDM)"
+        },
+        {
+          "key": "D",
+          "text": "波分复用(WDM)"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6540,12 +6795,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q6_fill",
+      "id": "net_ch2_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "ADSL技术的“非对称”特性是指:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "上下行带宽相等"
+        },
+        {
+          "key": "B",
+          "text": "下行带宽大于上行带宽"
+        },
+        {
+          "key": "C",
+          "text": "上行带宽大于下行带宽"
+        },
+        {
+          "key": "D",
+          "text": "仅支持单向通信"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6553,12 +6825,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q7_fill",
+      "id": "net_ch2_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "卫星通信的主要缺点是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "传播时延大"
+        },
+        {
+          "key": "B",
+          "text": "通信容量小"
+        },
+        {
+          "key": "C",
+          "text": "无法覆盖偏远地区"
+        },
+        {
+          "key": "D",
+          "text": "成本低廉"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6566,12 +6855,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q8_fill",
+      "id": "net_ch2_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪种传输媒体抗电磁干扰能力最强?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "双绞线"
+        },
+        {
+          "key": "B",
+          "text": "同轴电缆"
+        },
+        {
+          "key": "C",
+          "text": "光纤"
+        },
+        {
+          "key": "D",
+          "text": "微波"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6579,12 +6885,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q9_fill",
+      "id": "net_ch2_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "在CDMA系统中，不同用户的区分依据是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "占用不同时隙"
+        },
+        {
+          "key": "B",
+          "text": "使用不同频带"
+        },
+        {
+          "key": "C",
+          "text": "分配唯一的码片序列"
+        },
+        {
+          "key": "D",
+          "text": "调制方式不同"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -6592,12 +6915,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch2_q10_fill",
+      "id": "net_ch2_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第二章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "SONET/SDH标准的主要意义是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "统一了全球数字传输体制"
+        },
+        {
+          "key": "B",
+          "text": "降低了光纤制造成本"
+        },
+        {
+          "key": "C",
+          "text": "提高了无线通信速率"
+        },
+        {
+          "key": "D",
+          "text": "实现了模拟信号传输"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6742,12 +7082,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q1_fill",
+      "id": "net_ch3_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "数据链路层的主要功能是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "在相邻节点间传输帧"
+        },
+        {
+          "key": "B",
+          "text": "提供端到端的可靠通信"
+        },
+        {
+          "key": "C",
+          "text": "路由选择"
+        },
+        {
+          "key": "D",
+          "text": "数据加密"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6755,12 +7112,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q2_fill",
+      "id": "net_ch3_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪种编码方式具有自同步能力?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "不归零制"
+        },
+        {
+          "key": "B",
+          "text": "曼彻斯特编码"
+        },
+        {
+          "key": "C",
+          "text": "差分曼彻斯特编码"
+        },
+        {
+          "key": "D",
+          "text": "B和C"
+        }
+      ],
       "correctAnswer": [
         "D"
       ],
@@ -6768,12 +7142,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q3_fill",
+      "id": "net_ch3_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "CSMA/CD协议中，检测到碰撞后采取的措施是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "立即停止发送并等待随机时间后重传"
+        },
+        {
+          "key": "B",
+          "text": "继续发送直到完成"
+        },
+        {
+          "key": "C",
+          "text": "增加发送功率"
+        },
+        {
+          "key": "D",
+          "text": "切换信道"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6781,12 +7172,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q4_fill",
+      "id": "net_ch3_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以太网的最短有效帧长为:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "46字节"
+        },
+        {
+          "key": "B",
+          "text": "64字节"
+        },
+        {
+          "key": "C",
+          "text": "1500字节"
+        },
+        {
+          "key": "D",
+          "text": "512字节"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6794,12 +7202,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q5_fill",
+      "id": "net_ch3_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "在PPP协议中，用于标识IP数据报的协议字段值是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "0x0021"
+        },
+        {
+          "key": "B",
+          "text": "0x8021"
+        },
+        {
+          "key": "C",
+          "text": "0xC021"
+        },
+        {
+          "key": "D",
+          "text": "0xC023"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6807,12 +7232,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q6_fill",
+      "id": "net_ch3_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以太网交换机通过什么方式学习MAC地址?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "广播询问"
+        },
+        {
+          "key": "B",
+          "text": "自学习算法"
+        },
+        {
+          "key": "C",
+          "text": "手动配置"
+        },
+        {
+          "key": "D",
+          "text": "路由协议"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6820,12 +7262,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q7_fill",
+      "id": "net_ch3_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "VLAN的主要作用是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "扩展网络覆盖范围"
+        },
+        {
+          "key": "B",
+          "text": "隔离广播域"
+        },
+        {
+          "key": "C",
+          "text": "提高数据传输速率"
+        },
+        {
+          "key": "D",
+          "text": "增加网络接口数量"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6833,12 +7292,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q8_fill",
+      "id": "net_ch3_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "100BASE-T以太网的最大网段长度是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "100米"
+        },
+        {
+          "key": "B",
+          "text": "200米"
+        },
+        {
+          "key": "C",
+          "text": "500米"
+        },
+        {
+          "key": "D",
+          "text": "1000米"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -6846,12 +7322,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q9_fill",
+      "id": "net_ch3_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "吉比特以太网在全双工方式下工作时:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "使用CSMA/CD协议"
+        },
+        {
+          "key": "B",
+          "text": "不使用CSMA/CD协议"
+        },
+        {
+          "key": "C",
+          "text": "仅在半双工方式下使用CSMA/CD"
+        },
+        {
+          "key": "D",
+          "text": "仅在广播信道中使用CSMA/CD"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -6859,12 +7352,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch3_q10_fill",
+      "id": "net_ch3_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第三章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "以下哪种设备工作在数据链路层?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "集线器"
+        },
+        {
+          "key": "B",
+          "text": "路由器"
+        },
+        {
+          "key": "C",
+          "text": "交换机"
+        },
+        {
+          "key": "D",
+          "text": "中继器"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -7002,12 +7512,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q1_fill",
+      "id": "net_ch4_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "网络层提供的两种服务是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "面向连接和无连接"
+        },
+        {
+          "key": "B",
+          "text": "可靠交付和不可靠交付"
+        },
+        {
+          "key": "C",
+          "text": "虚电路服务和数据报服务"
+        },
+        {
+          "key": "D",
+          "text": "直接交付和间接交付"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -7015,12 +7542,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q2_fill",
+      "id": "net_ch4_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "IPv4地址的长度是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "16位"
+        },
+        {
+          "key": "B",
+          "text": "32位"
+        },
+        {
+          "key": "C",
+          "text": "64位"
+        },
+        {
+          "key": "D",
+          "text": "128位"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7028,12 +7572,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q3_fill",
+      "id": "net_ch4_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "CIDR的主要作用是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "增加IP地址的总数"
+        },
+        {
+          "key": "B",
+          "text": "更有效地分配IPv4地址空间"
+        },
+        {
+          "key": "C",
+          "text": "替代IPv6"
+        },
+        {
+          "key": "D",
+          "text": "提高网络传输速度"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7041,12 +7602,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q4_fill",
+      "id": "net_ch4_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "ARP协议的功能是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "将IP地址解析为MAC地址"
+        },
+        {
+          "key": "B",
+          "text": "将MAC地址解析为IP地址"
+        },
+        {
+          "key": "C",
+          "text": "分配IP地址"
+        },
+        {
+          "key": "D",
+          "text": "检测网络连通性"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7054,12 +7632,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q5_fill",
+      "id": "net_ch4_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "IP数据报的首部长度最大为( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "20字节"
+        },
+        {
+          "key": "B",
+          "text": "40字节"
+        },
+        {
+          "key": "C",
+          "text": "60字节"
+        },
+        {
+          "key": "D",
+          "text": "80字节"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -7067,12 +7662,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q6_fill",
+      "id": "net_ch4_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "RIP协议的最大跳数是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "32"
+        },
+        {
+          "key": "D",
+          "text": "64"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7080,12 +7692,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q7_fill",
+      "id": "net_ch4_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "OSPF协议使用的算法是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "Bellman-Ford算法"
+        },
+        {
+          "key": "B",
+          "text": "Dijkstra算法"
+        },
+        {
+          "key": "C",
+          "text": "距离向量算法"
+        },
+        {
+          "key": "D",
+          "text": "洪泛算法"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7093,12 +7722,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q8_fill",
+      "id": "net_ch4_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "BGP协议主要用于( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "自治系统内部的路由选择"
+        },
+        {
+          "key": "B",
+          "text": "自治系统之间的路由选择"
+        },
+        {
+          "key": "C",
+          "text": "局域网内的路由选择"
+        },
+        {
+          "key": "D",
+          "text": "广域网内的路由选择"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7106,12 +7752,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q9_fill",
+      "id": "net_ch4_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "VPN的全称是( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "Virtual Private Network"
+        },
+        {
+          "key": "B",
+          "text": "Virtual Public Network"
+        },
+        {
+          "key": "C",
+          "text": "Visual Private Network"
+        },
+        {
+          "key": "D",
+          "text": "Visual Public Network"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7119,12 +7782,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch4_q10_fill",
+      "id": "net_ch4_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第四章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "MPLS的首部位于( )",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "网络层和传输层之间"
+        },
+        {
+          "key": "B",
+          "text": "数据链路层和网络层之间"
+        },
+        {
+          "key": "C",
+          "text": "物理层和数据链路层之间"
+        },
+        {
+          "key": "D",
+          "text": "传输层和应用层之间"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7267,12 +7947,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q1_fill",
+      "id": "net_ch5_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "运输层的主要作用是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "提供端到端的逻辑通信信道"
+        },
+        {
+          "key": "B",
+          "text": "负责物理链路的连接"
+        },
+        {
+          "key": "C",
+          "text": "管理网络拓扑结构"
+        },
+        {
+          "key": "D",
+          "text": "分配IP地址"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7280,12 +7977,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q2_fill",
+      "id": "net_ch5_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "UDP协议的特点是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "面向连接、可靠传输"
+        },
+        {
+          "key": "B",
+          "text": "无连接、不可靠传输"
+        },
+        {
+          "key": "C",
+          "text": "提供流量控制"
+        },
+        {
+          "key": "D",
+          "text": "支持拥塞控制"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7293,12 +8007,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q3_fill",
+      "id": "net_ch5_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP协议中，用于建立连接的标志位是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "SYN=1, ACK=0"
+        },
+        {
+          "key": "B",
+          "text": "SYN=1, ACK=1"
+        },
+        {
+          "key": "C",
+          "text": "FIN=1, ACK=0"
+        },
+        {
+          "key": "D",
+          "text": "FIN=1, ACK=1"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7306,12 +8037,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q4_fill",
+      "id": "net_ch5_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP的滑动窗口机制主要用于:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "实现流量控制和可靠传输"
+        },
+        {
+          "key": "B",
+          "text": "分配IP地址"
+        },
+        {
+          "key": "C",
+          "text": "管理路由表"
+        },
+        {
+          "key": "D",
+          "text": "检测网络拥塞"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7319,12 +8067,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q5_fill",
+      "id": "net_ch5_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP的拥塞控制算法中，慢开始阶段的窗口增长方式是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "线性增长"
+        },
+        {
+          "key": "B",
+          "text": "指数增长"
+        },
+        {
+          "key": "C",
+          "text": "固定不变"
+        },
+        {
+          "key": "D",
+          "text": "随机增长"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7332,12 +8097,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q6_fill",
+      "id": "net_ch5_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP连接释放过程中，FIN报文段的作用是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "请求建立连接"
+        },
+        {
+          "key": "B",
+          "text": "确认数据接收"
+        },
+        {
+          "key": "C",
+          "text": "请求释放连接"
+        },
+        {
+          "key": "D",
+          "text": "通知窗口大小"
+        }
+      ],
       "correctAnswer": [
         "C"
       ],
@@ -7345,12 +8127,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q7_fill",
+      "id": "net_ch5_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP报文段首部中，用于标识紧急数据的字段是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "URG"
+        },
+        {
+          "key": "B",
+          "text": "ACK"
+        },
+        {
+          "key": "C",
+          "text": "PSH"
+        },
+        {
+          "key": "D",
+          "text": "RST"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7358,12 +8157,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q8_fill",
+      "id": "net_ch5_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP的可靠传输是通过以下哪种机制实现的?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "超时重传和确认机制"
+        },
+        {
+          "key": "B",
+          "text": "端口复用"
+        },
+        {
+          "key": "C",
+          "text": "数据分片"
+        },
+        {
+          "key": "D",
+          "text": "动态路由选择"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7371,12 +8187,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q9_fill",
+      "id": "net_ch5_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP的流量控制是通过以下哪个字段实现的?",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "序号字段"
+        },
+        {
+          "key": "B",
+          "text": "窗口字段"
+        },
+        {
+          "key": "C",
+          "text": "检验和字段"
+        },
+        {
+          "key": "D",
+          "text": "紧急指针字段"
+        }
+      ],
       "correctAnswer": [
         "B"
       ],
@@ -7384,12 +8217,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch5_q10_fill",
+      "id": "net_ch5_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第五章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "TCP连接建立时采用“三报文握手”的主要目的是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "防止失效的连接请求报文段干扰"
+        },
+        {
+          "key": "B",
+          "text": "加快数据传输速率"
+        },
+        {
+          "key": "C",
+          "text": "减少网络拥塞"
+        },
+        {
+          "key": "D",
+          "text": "分配端口号"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7527,12 +8377,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q1_fill",
+      "id": "net_ch6_q1_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "DNS的主要功能是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "将域名转换为IP地址"
+        },
+        {
+          "key": "B",
+          "text": "提供文件传输服务"
+        },
+        {
+          "key": "C",
+          "text": "管理电子邮件"
+        },
+        {
+          "key": "D",
+          "text": "实现网络拥塞控制"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7540,12 +8407,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q2_fill",
+      "id": "net_ch6_q2_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "FTP协议使用的默认端口号是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "20和21"
+        },
+        {
+          "key": "B",
+          "text": "25和80"
+        },
+        {
+          "key": "C",
+          "text": "53和67"
+        },
+        {
+          "key": "D",
+          "text": "110和143"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7553,12 +8437,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q3_fill",
+      "id": "net_ch6_q3_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "HTTP协议中，用于请求服务器发送资源的请求方法是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "GET"
+        },
+        {
+          "key": "B",
+          "text": "POST"
+        },
+        {
+          "key": "C",
+          "text": "PUT"
+        },
+        {
+          "key": "D",
+          "text": "DELETE"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7566,12 +8467,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q4_fill",
+      "id": "net_ch6_q4_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "SMTP协议用于:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "发送电子邮件"
+        },
+        {
+          "key": "B",
+          "text": "接收电子邮件"
+        },
+        {
+          "key": "C",
+          "text": "解析域名"
+        },
+        {
+          "key": "D",
+          "text": "传输文件"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7579,12 +8497,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q5_fill",
+      "id": "net_ch6_q5_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "POP3和IMAP的主要区别是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "POP3下载邮件后删除服务器副本，IMAP保留"
+        },
+        {
+          "key": "B",
+          "text": "POP3支持多设备同步，IMAP不支持"
+        },
+        {
+          "key": "C",
+          "text": "POP3使用TCP，IMAP使用UDP"
+        },
+        {
+          "key": "D",
+          "text": "POP3用于发送邮件，IMAP用于接收邮件"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7592,12 +8527,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q6_fill",
+      "id": "net_ch6_q6_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "DHCP协议的主要功能是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "动态分配IP地址"
+        },
+        {
+          "key": "B",
+          "text": "解析域名"
+        },
+        {
+          "key": "C",
+          "text": "传输文件"
+        },
+        {
+          "key": "D",
+          "text": "管理网络拥塞"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7605,12 +8557,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q7_fill",
+      "id": "net_ch6_q7_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "SNMP协议中，用于管理站查询代理信息的操作是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "GetRequest"
+        },
+        {
+          "key": "B",
+          "text": "SetRequest"
+        },
+        {
+          "key": "C",
+          "text": "Trap"
+        },
+        {
+          "key": "D",
+          "text": "InformRequest"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7618,12 +8587,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q8_fill",
+      "id": "net_ch6_q8_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "P2P文件共享中，BitTorrent协议的核心组件是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "Tracker"
+        },
+        {
+          "key": "B",
+          "text": "DNS服务器"
+        },
+        {
+          "key": "C",
+          "text": "代理服务器"
+        },
+        {
+          "key": "D",
+          "text": "邮件服务器"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7631,12 +8617,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q9_fill",
+      "id": "net_ch6_q9_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "MIME协议的主要作用是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "扩展电子邮件支持非ASCII内容"
+        },
+        {
+          "key": "B",
+          "text": "动态分配IP地址"
+        },
+        {
+          "key": "C",
+          "text": "管理网络设备"
+        },
+        {
+          "key": "D",
+          "text": "提供文件传输服务"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
@@ -7644,12 +8647,29 @@
       "difficulty": "medium"
     },
     {
-      "id": "net_ch6_q10_fill",
+      "id": "net_ch6_q10_single",
       "course": "计算机网络",
       "unit": "计算机网络_第六章单元测验",
-      "type": "fill",
+      "type": "single",
       "question": "在HTTP/1.1中，持续连接的主要优点是:",
-      "options": [],
+      "options": [
+        {
+          "key": "A",
+          "text": "减少TCP连接建立的开销"
+        },
+        {
+          "key": "B",
+          "text": "提高单次传输速度"
+        },
+        {
+          "key": "C",
+          "text": "支持多播"
+        },
+        {
+          "key": "D",
+          "text": "增强安全性"
+        }
+      ],
       "correctAnswer": [
         "A"
       ],
